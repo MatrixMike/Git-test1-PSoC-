@@ -30,6 +30,8 @@
 <v>Git-test1\Design01G\Header Files\cyapicallbacks.h</v>
 <v>Git-test1\Design01G\Source Files</v>
 <v>Git-test1\Design01G\Source Files\main.c</v>
+<v>Git-test1\Design01G\Generated_Source</v>
+<v>Git-test1\Design01G\Generated_Source\PSoC4</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>Git-test1</v>
@@ -47,6 +49,17 @@
 <v>Git-test1\Design01G\Header Files\cyapicallbacks.h</v>
 <v>Git-test1\Design01G\Source Files</v>
 <v>Git-test1\Design01G\Source Files\main.c</v>
+<v>Git-test1\Design01G\Generated_Source</v>
+<v>Git-test1\Design01G\Generated_Source\PSoC4</v>
+<v>Git-test1\Design01G\Generated_Source\PSoC4\ADC_In</v>
+<v>Git-test1\Design01G\Generated_Source\PSoC4\ADC_SAR_Seq_1</v>
+<v>Git-test1\Design01G\Generated_Source\PSoC4\ADC_SAR_Seq_1_intClock</v>
+<v>Git-test1\Design01G\Generated_Source\PSoC4\ADC_SAR_Seq_1_IRQ</v>
+<v>Git-test1\Design01G\Generated_Source\PSoC4\BLE_1</v>
+<v>Git-test1\Design01G\Generated_Source\PSoC4\BLE_1_bless_isr</v>
+<v>Git-test1\Design01G\Generated_Source\PSoC4\Clock_1</v>
+<v>Git-test1\Design01G\Generated_Source\PSoC4\Clock_4</v>
+<v>Git-test1\Design01G\Generated_Source\PSoC4\cy_boot</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -61,6 +74,77 @@
 <ExpandedNodeIds>
 <v>Git-test1</v>
 <v>Git-test1\Design01G</v>
+<v>Git-test1\Design01G\CortexM0</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_In.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_In_PM.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_1.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_1_INT.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_1_intClock.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_1_IRQ.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_1_PM.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1_bas.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1_bless_isr.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1_dis.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1_eventHandler.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1_gatt.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1_HAL_INT.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1_HAL_PVT.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1_hids.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1_scps.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_4.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\I2S_1.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\I2S_1_PM.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\isr_1.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_1.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_1_PM.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_2.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_2_PM.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SCB_1.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SCB_1_BOOT.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SCB_1_miso_m.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SCB_1_miso_m_PM.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SCB_1_mosi_m.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SCB_1_mosi_m_PM.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SCB_1_PM.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SCB_1_SCBCLK.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SCB_1_sclk_m.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SCB_1_sclk_m_PM.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SCB_1_SPI.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SCB_1_SPI_BOOT.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SCB_1_SPI_UART.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SCB_1_ss0_m.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SCB_1_ss0_m_PM.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SW1.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SW1_PM.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SW2.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SW2_PM.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SW3.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SW3_PM.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SW4.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SW4_PM.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SW5.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\SW5_PM.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\TCPWM_1.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\TCPWM_1_PM.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Design01G.elf</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Design01G.hex</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Design01G.map</v>
 <v>Git-test1\Design01G\Design01G.gpdsc</v>
 <v>Git-test1\Design01G\Design01G.rpt</v>
 <v>Git-test1\Design01G\Design01G_timing.html</v>
@@ -68,9 +152,30 @@
 <VisibleNodeIds>
 <v>Git-test1</v>
 <v>Git-test1\Design01G</v>
-<v>Git-test1\Design01G\Design01G.gpdsc</v>
-<v>Git-test1\Design01G\Design01G.rpt</v>
-<v>Git-test1\Design01G\Design01G_timing.html</v>
+<v>Git-test1\Design01G\CortexM0</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_In.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_In_PM.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_1.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_1_INT.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_1_intClock.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_1_IRQ.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_1_PM.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1_bas.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1_bless_isr.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1_dis.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1_eventHandler.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1_gatt.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1_HAL_INT.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1_HAL_PVT.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1_hids.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_1_scps.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_4.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>

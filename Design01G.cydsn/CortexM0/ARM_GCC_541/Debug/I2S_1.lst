@@ -1,0 +1,1593 @@
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m0
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 6
+  11              		.eabi_attribute 34, 0
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"I2S_1.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	I2S_1_initVar
+  20              		.bss
+  21              		.type	I2S_1_initVar, %object
+  22              		.size	I2S_1_initVar, 1
+  23              	I2S_1_initVar:
+  24 0000 00       		.space	1
+  25              		.section	.text.I2S_1_Enable,"ax",%progbits
+  26              		.align	2
+  27              		.global	I2S_1_Enable
+  28              		.code	16
+  29              		.thumb_func
+  30              		.type	I2S_1_Enable, %function
+  31              	I2S_1_Enable:
+  32              	.LFB2:
+  33              		.file 1 "Generated_Source\\PSoC4\\I2S_1.c"
+   1:Generated_Source\PSoC4/I2S_1.c **** /*******************************************************************************
+   2:Generated_Source\PSoC4/I2S_1.c **** * File Name: I2S_1.c
+   3:Generated_Source\PSoC4/I2S_1.c **** * Version 2.70
+   4:Generated_Source\PSoC4/I2S_1.c **** *
+   5:Generated_Source\PSoC4/I2S_1.c **** * Description:
+   6:Generated_Source\PSoC4/I2S_1.c **** *  This file contains the setup, control and status commands for the I2S
+   7:Generated_Source\PSoC4/I2S_1.c **** *  component.
+   8:Generated_Source\PSoC4/I2S_1.c **** *
+   9:Generated_Source\PSoC4/I2S_1.c **** * Note:
+  10:Generated_Source\PSoC4/I2S_1.c **** *
+  11:Generated_Source\PSoC4/I2S_1.c **** ********************************************************************************
+  12:Generated_Source\PSoC4/I2S_1.c **** * Copyright 2008-2015, Cypress Semiconductor Corporation.  All rights reserved.
+  13:Generated_Source\PSoC4/I2S_1.c **** * You may use this file only in accordance with the license, terms, conditions,
+  14:Generated_Source\PSoC4/I2S_1.c **** * disclaimers, and limitations in the end user license agreement accompanying
+  15:Generated_Source\PSoC4/I2S_1.c **** * the software package with which this file was provided.
+  16:Generated_Source\PSoC4/I2S_1.c **** *******************************************************************************/
+  17:Generated_Source\PSoC4/I2S_1.c **** 
+  18:Generated_Source\PSoC4/I2S_1.c **** #include "CyLib.h"
+  19:Generated_Source\PSoC4/I2S_1.c **** #include "I2S_1.h"
+  20:Generated_Source\PSoC4/I2S_1.c **** 
+  21:Generated_Source\PSoC4/I2S_1.c **** uint8 I2S_1_initVar = 0u;
+  22:Generated_Source\PSoC4/I2S_1.c **** 
+  23:Generated_Source\PSoC4/I2S_1.c **** 
+  24:Generated_Source\PSoC4/I2S_1.c **** /*******************************************************************************
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 2
+
+
+  25:Generated_Source\PSoC4/I2S_1.c **** * Function Name: I2S_1_Enable
+  26:Generated_Source\PSoC4/I2S_1.c **** ********************************************************************************
+  27:Generated_Source\PSoC4/I2S_1.c **** *
+  28:Generated_Source\PSoC4/I2S_1.c **** * Summary:
+  29:Generated_Source\PSoC4/I2S_1.c **** *  Enables I2S interface. Starts the generation of the sck and ws outputs.
+  30:Generated_Source\PSoC4/I2S_1.c **** *  The Tx and Rx directions remain disabled. It is not necessary to call
+  31:Generated_Source\PSoC4/I2S_1.c **** *  I2S_Enable() because the I2S_Start() routine calls this function, which is
+  32:Generated_Source\PSoC4/I2S_1.c **** *  the preferred method to begin component operation.
+  33:Generated_Source\PSoC4/I2S_1.c **** *
+  34:Generated_Source\PSoC4/I2S_1.c **** * Parameters:
+  35:Generated_Source\PSoC4/I2S_1.c **** *  None.
+  36:Generated_Source\PSoC4/I2S_1.c **** *
+  37:Generated_Source\PSoC4/I2S_1.c **** * Return:
+  38:Generated_Source\PSoC4/I2S_1.c **** *  None.
+  39:Generated_Source\PSoC4/I2S_1.c **** *
+  40:Generated_Source\PSoC4/I2S_1.c **** *******************************************************************************/
+  41:Generated_Source\PSoC4/I2S_1.c **** void I2S_1_Enable(void) 
+  42:Generated_Source\PSoC4/I2S_1.c **** {
+  34              		.loc 1 42 0
+  35              		.cfi_startproc
+  36              		@ args = 0, pretend = 0, frame = 8
+  37              		@ frame_needed = 1, uses_anonymous_args = 0
+  38 0000 90B5     		push	{r4, r7, lr}
+  39              		.cfi_def_cfa_offset 12
+  40              		.cfi_offset 4, -12
+  41              		.cfi_offset 7, -8
+  42              		.cfi_offset 14, -4
+  43 0002 83B0     		sub	sp, sp, #12
+  44              		.cfi_def_cfa_offset 24
+  45 0004 00AF     		add	r7, sp, #0
+  46              		.cfi_def_cfa_register 7
+  43:Generated_Source\PSoC4/I2S_1.c ****     uint8 enableInterrupts;
+  44:Generated_Source\PSoC4/I2S_1.c **** 
+  45:Generated_Source\PSoC4/I2S_1.c ****     enableInterrupts = CyEnterCriticalSection();
+  47              		.loc 1 45 0
+  48 0006 FC1D     		adds	r4, r7, #7
+  49 0008 FFF7FEFF 		bl	CyEnterCriticalSection
+  50 000c 0300     		movs	r3, r0
+  51 000e 2370     		strb	r3, [r4]
+  46:Generated_Source\PSoC4/I2S_1.c ****     I2S_1_AUX_CONTROL_REG |= I2S_1_CNT_START;
+  52              		.loc 1 46 0
+  53 0010 0C4A     		ldr	r2, .L2
+  54 0012 0C4B     		ldr	r3, .L2
+  55 0014 1B78     		ldrb	r3, [r3]
+  56 0016 DBB2     		uxtb	r3, r3
+  57 0018 2021     		movs	r1, #32
+  58 001a 0B43     		orrs	r3, r1
+  59 001c DBB2     		uxtb	r3, r3
+  60 001e 1370     		strb	r3, [r2]
+  47:Generated_Source\PSoC4/I2S_1.c ****     CyExitCriticalSection(enableInterrupts);
+  61              		.loc 1 47 0
+  62 0020 FB1D     		adds	r3, r7, #7
+  63 0022 1B78     		ldrb	r3, [r3]
+  64 0024 1800     		movs	r0, r3
+  65 0026 FFF7FEFF 		bl	CyExitCriticalSection
+  48:Generated_Source\PSoC4/I2S_1.c **** 
+  49:Generated_Source\PSoC4/I2S_1.c ****     I2S_1_CONTROL_REG |= I2S_1_EN;
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 3
+
+
+  66              		.loc 1 49 0
+  67 002a 074A     		ldr	r2, .L2+4
+  68 002c 064B     		ldr	r3, .L2+4
+  69 002e 1B78     		ldrb	r3, [r3]
+  70 0030 DBB2     		uxtb	r3, r3
+  71 0032 0421     		movs	r1, #4
+  72 0034 0B43     		orrs	r3, r1
+  73 0036 DBB2     		uxtb	r3, r3
+  74 0038 1370     		strb	r3, [r2]
+  50:Generated_Source\PSoC4/I2S_1.c **** }
+  75              		.loc 1 50 0
+  76 003a C046     		nop
+  77 003c BD46     		mov	sp, r7
+  78 003e 03B0     		add	sp, sp, #12
+  79              		@ sp needed
+  80 0040 90BD     		pop	{r4, r7, pc}
+  81              	.L3:
+  82 0042 C046     		.align	2
+  83              	.L2:
+  84 0044 90000F40 		.word	1074725008
+  85 0048 71000F40 		.word	1074724977
+  86              		.cfi_endproc
+  87              	.LFE2:
+  88              		.size	I2S_1_Enable, .-I2S_1_Enable
+  89              		.section	.text.I2S_1_Init,"ax",%progbits
+  90              		.align	2
+  91              		.global	I2S_1_Init
+  92              		.code	16
+  93              		.thumb_func
+  94              		.type	I2S_1_Init, %function
+  95              	I2S_1_Init:
+  96              	.LFB3:
+  51:Generated_Source\PSoC4/I2S_1.c **** 
+  52:Generated_Source\PSoC4/I2S_1.c **** 
+  53:Generated_Source\PSoC4/I2S_1.c **** /*******************************************************************************
+  54:Generated_Source\PSoC4/I2S_1.c **** * Function Name: I2S_1_Init
+  55:Generated_Source\PSoC4/I2S_1.c **** ********************************************************************************
+  56:Generated_Source\PSoC4/I2S_1.c **** *
+  57:Generated_Source\PSoC4/I2S_1.c **** * Summary:
+  58:Generated_Source\PSoC4/I2S_1.c **** *  Initializes or restores default I2S configuration provided with customizer.
+  59:Generated_Source\PSoC4/I2S_1.c **** *  It is not necessary to call I2S_Init() because the I2S_Start() routine calls
+  60:Generated_Source\PSoC4/I2S_1.c **** *  this function, which is the preferred method to begin component operation.
+  61:Generated_Source\PSoC4/I2S_1.c **** *
+  62:Generated_Source\PSoC4/I2S_1.c **** * Parameters:
+  63:Generated_Source\PSoC4/I2S_1.c **** *  None.
+  64:Generated_Source\PSoC4/I2S_1.c **** *
+  65:Generated_Source\PSoC4/I2S_1.c **** * Return:
+  66:Generated_Source\PSoC4/I2S_1.c **** *  None.
+  67:Generated_Source\PSoC4/I2S_1.c **** *
+  68:Generated_Source\PSoC4/I2S_1.c **** *******************************************************************************/
+  69:Generated_Source\PSoC4/I2S_1.c **** void I2S_1_Init(void) 
+  70:Generated_Source\PSoC4/I2S_1.c **** {
+  97              		.loc 1 70 0
+  98              		.cfi_startproc
+  99              		@ args = 0, pretend = 0, frame = 0
+ 100              		@ frame_needed = 1, uses_anonymous_args = 0
+ 101 0000 80B5     		push	{r7, lr}
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 4
+
+
+ 102              		.cfi_def_cfa_offset 8
+ 103              		.cfi_offset 7, -8
+ 104              		.cfi_offset 14, -4
+ 105 0002 00AF     		add	r7, sp, #0
+ 106              		.cfi_def_cfa_register 7
+  71:Generated_Source\PSoC4/I2S_1.c ****     #if (I2S_1_CLIP_DETECT_ENABLE)
+  72:Generated_Source\PSoC4/I2S_1.c ****         static const uint8 CYCODE I2S_1_posThresholds[] = {0u};
+  73:Generated_Source\PSoC4/I2S_1.c ****         static const int8  CYCODE I2S_1_negThresholds[] = {-1};
+  74:Generated_Source\PSoC4/I2S_1.c ****     #endif /* I2S_1_CLIP_DETECT_ENABLE */
+  75:Generated_Source\PSoC4/I2S_1.c **** 
+  76:Generated_Source\PSoC4/I2S_1.c ****     #if (I2S_1_DYNAMIC_BIT_RESOLUTION)
+  77:Generated_Source\PSoC4/I2S_1.c ****         (void)I2S_1_SetDataBits(I2S_1_DATA_BITS);
+  78:Generated_Source\PSoC4/I2S_1.c ****     #endif /* I2S_1_DYNAMIC_BIT_RESOLUTION */
+  79:Generated_Source\PSoC4/I2S_1.c **** 
+  80:Generated_Source\PSoC4/I2S_1.c ****     /* Initialize Tx interrupt source selected in customizer */
+  81:Generated_Source\PSoC4/I2S_1.c ****     #if (I2S_1_TX_DIRECTION_ENABLE)
+  82:Generated_Source\PSoC4/I2S_1.c ****         I2S_1_SET_TX_INT_MASK(CH0, I2S_1_TX_INT_SOURCE);
+  83:Generated_Source\PSoC4/I2S_1.c ****         #if (I2S_1_TX_STEREO_1_PRESENT)
+  84:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_SET_TX_INT_MASK(CH1, I2S_1_TX_INT_SOURCE);
+  85:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_TX_STEREO_1_PRESENT */
+  86:Generated_Source\PSoC4/I2S_1.c ****         #if (I2S_1_TX_STEREO_2_PRESENT)
+  87:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_SET_TX_INT_MASK(CH2, I2S_1_TX_INT_SOURCE);
+  88:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_TX_STEREO_2_PRESENT */
+  89:Generated_Source\PSoC4/I2S_1.c ****         #if (I2S_1_TX_STEREO_3_PRESENT)
+  90:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_SET_TX_INT_MASK(CH3, I2S_1_TX_INT_SOURCE);
+  91:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_TX_STEREO_3_PRESENT */
+  92:Generated_Source\PSoC4/I2S_1.c ****         #if (I2S_1_TX_STEREO_4_PRESENT)
+  93:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_SET_TX_INT_MASK(CH4, I2S_1_TX_INT_SOURCE);
+  94:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_TX_STEREO_4_PRESENT */
+  95:Generated_Source\PSoC4/I2S_1.c ****     #endif /* (I2S_1_TX_DIRECTION_ENABLE) */
+  96:Generated_Source\PSoC4/I2S_1.c ****     
+  97:Generated_Source\PSoC4/I2S_1.c ****     /* Initialize Rx interrupt source and clipping thresholds selected in customizer */
+  98:Generated_Source\PSoC4/I2S_1.c ****     #if (I2S_1_RX_DIRECTION_ENABLE)
+  99:Generated_Source\PSoC4/I2S_1.c ****         I2S_1_SET_RX_INT_MASK(CH0, I2S_1_RX_INT_SOURCE);
+ 107              		.loc 1 99 0
+ 108 0004 074A     		ldr	r2, .L5
+ 109 0006 074B     		ldr	r3, .L5
+ 110 0008 1B78     		ldrb	r3, [r3]
+ 111 000a DBB2     		uxtb	r3, r3
+ 112 000c 0721     		movs	r1, #7
+ 113 000e 8B43     		bics	r3, r1
+ 114 0010 DBB2     		uxtb	r3, r3
+ 115 0012 1370     		strb	r3, [r2]
+ 116 0014 034B     		ldr	r3, .L5
+ 117 0016 034A     		ldr	r2, .L5
+ 118 0018 1278     		ldrb	r2, [r2]
+ 119 001a D2B2     		uxtb	r2, r2
+ 120 001c 1A70     		strb	r2, [r3]
+ 100:Generated_Source\PSoC4/I2S_1.c ****         #if (I2S_1_CLIP_DETECT_ENABLE)
+ 101:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_SET_POS_THRESHOLD(CH0, I2S_1_posThresholds[I2S_1_STEREO_0]);
+ 102:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_SET_NEG_THRESHOLD(CH0, I2S_1_negThresholds[I2S_1_STEREO_0]);
+ 103:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_CLIP_DETECT_ENABLE */
+ 104:Generated_Source\PSoC4/I2S_1.c ****         #if (I2S_1_RX_STEREO_1_PRESENT)
+ 105:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_SET_RX_INT_MASK(CH1, I2S_1_RX_INT_SOURCE);
+ 106:Generated_Source\PSoC4/I2S_1.c ****             #if (I2S_1_CLIP_DETECT_ENABLE)
+ 107:Generated_Source\PSoC4/I2S_1.c ****                 I2S_1_SET_POS_THRESHOLD(CH1, I2S_1_posThresholds[I2S_1_STEREO_1]);
+ 108:Generated_Source\PSoC4/I2S_1.c ****                 I2S_1_SET_NEG_THRESHOLD(CH1, I2S_1_negThresholds[I2S_1_STEREO_1]);
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 5
+
+
+ 109:Generated_Source\PSoC4/I2S_1.c ****             #endif /* I2S_1_CLIP_DETECT_ENABLE */
+ 110:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_RX_STEREO_1_PRESENT */
+ 111:Generated_Source\PSoC4/I2S_1.c ****         #if (I2S_1_RX_STEREO_2_PRESENT)
+ 112:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_SET_RX_INT_MASK(CH2, I2S_1_RX_INT_SOURCE);
+ 113:Generated_Source\PSoC4/I2S_1.c ****             #if (I2S_1_CLIP_DETECT_ENABLE)
+ 114:Generated_Source\PSoC4/I2S_1.c ****                 I2S_1_SET_POS_THRESHOLD(CH2, I2S_1_posThresholds[I2S_1_STEREO_2]);
+ 115:Generated_Source\PSoC4/I2S_1.c ****                 I2S_1_SET_NEG_THRESHOLD(CH2, I2S_1_negThresholds[I2S_1_STEREO_2]);
+ 116:Generated_Source\PSoC4/I2S_1.c ****             #endif /* I2S_1_CLIP_DETECT_ENABLE */
+ 117:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_RX_STEREO_2_PRESENT */
+ 118:Generated_Source\PSoC4/I2S_1.c ****         #if (I2S_1_RX_STEREO_3_PRESENT)
+ 119:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_SET_RX_INT_MASK(CH3, I2S_1_RX_INT_SOURCE);
+ 120:Generated_Source\PSoC4/I2S_1.c ****             #if (I2S_1_CLIP_DETECT_ENABLE)
+ 121:Generated_Source\PSoC4/I2S_1.c ****                 I2S_1_SET_POS_THRESHOLD(CH3, I2S_1_posThresholds[I2S_1_STEREO_3]);
+ 122:Generated_Source\PSoC4/I2S_1.c ****                 I2S_1_SET_NEG_THRESHOLD(CH3, I2S_1_negThresholds[I2S_1_STEREO_3]);
+ 123:Generated_Source\PSoC4/I2S_1.c ****             #endif /* I2S_1_CLIP_DETECT_ENABLE */
+ 124:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_RX_STEREO_3_PRESENT */
+ 125:Generated_Source\PSoC4/I2S_1.c ****         #if (I2S_1_RX_STEREO_4_PRESENT)
+ 126:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_SET_RX_INT_MASK(CH4, I2S_1_RX_INT_SOURCE);
+ 127:Generated_Source\PSoC4/I2S_1.c ****             #if (I2S_1_CLIP_DETECT_ENABLE)
+ 128:Generated_Source\PSoC4/I2S_1.c ****                 I2S_1_SET_POS_THRESHOLD(CH4, I2S_1_posThresholds[I2S_1_STEREO_4]);
+ 129:Generated_Source\PSoC4/I2S_1.c ****                 I2S_1_SET_NEG_THRESHOLD(CH4, I2S_1_negThresholds[I2S_1_STEREO_4]);
+ 130:Generated_Source\PSoC4/I2S_1.c ****             #endif /* I2S_1_CLIP_DETECT_ENABLE */
+ 131:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_RX_STEREO_4_PRESENT */
+ 132:Generated_Source\PSoC4/I2S_1.c ****     #endif /* (I2S_1_RX_DIRECTION_ENABLE) */
+ 133:Generated_Source\PSoC4/I2S_1.c **** }
+ 121              		.loc 1 133 0
+ 122 001e C046     		nop
+ 123 0020 BD46     		mov	sp, r7
+ 124              		@ sp needed
+ 125 0022 80BD     		pop	{r7, pc}
+ 126              	.L6:
+ 127              		.align	2
+ 128              	.L5:
+ 129 0024 81000F40 		.word	1074724993
+ 130              		.cfi_endproc
+ 131              	.LFE3:
+ 132              		.size	I2S_1_Init, .-I2S_1_Init
+ 133              		.section	.text.I2S_1_Start,"ax",%progbits
+ 134              		.align	2
+ 135              		.global	I2S_1_Start
+ 136              		.code	16
+ 137              		.thumb_func
+ 138              		.type	I2S_1_Start, %function
+ 139              	I2S_1_Start:
+ 140              	.LFB4:
+ 134:Generated_Source\PSoC4/I2S_1.c **** 
+ 135:Generated_Source\PSoC4/I2S_1.c **** 
+ 136:Generated_Source\PSoC4/I2S_1.c **** /*******************************************************************************
+ 137:Generated_Source\PSoC4/I2S_1.c **** * Function Name: I2S_1_Start
+ 138:Generated_Source\PSoC4/I2S_1.c **** ********************************************************************************
+ 139:Generated_Source\PSoC4/I2S_1.c **** *
+ 140:Generated_Source\PSoC4/I2S_1.c **** * Summary:
+ 141:Generated_Source\PSoC4/I2S_1.c **** *  Starts the I2S interface. Starts the generation of the sck and ws outputs.
+ 142:Generated_Source\PSoC4/I2S_1.c **** *  The Tx and Rx directions remain disabled.
+ 143:Generated_Source\PSoC4/I2S_1.c **** *
+ 144:Generated_Source\PSoC4/I2S_1.c **** * Parameters:
+ 145:Generated_Source\PSoC4/I2S_1.c **** *  None.
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 6
+
+
+ 146:Generated_Source\PSoC4/I2S_1.c **** *
+ 147:Generated_Source\PSoC4/I2S_1.c **** * Return:
+ 148:Generated_Source\PSoC4/I2S_1.c **** *  None.
+ 149:Generated_Source\PSoC4/I2S_1.c **** *
+ 150:Generated_Source\PSoC4/I2S_1.c **** * Global Variables:
+ 151:Generated_Source\PSoC4/I2S_1.c **** *  I2S_1_initVar - used to check initial configuration, modified on
+ 152:Generated_Source\PSoC4/I2S_1.c **** *  first function call.
+ 153:Generated_Source\PSoC4/I2S_1.c **** *
+ 154:Generated_Source\PSoC4/I2S_1.c **** * Reentrant:
+ 155:Generated_Source\PSoC4/I2S_1.c **** *  No.
+ 156:Generated_Source\PSoC4/I2S_1.c **** *
+ 157:Generated_Source\PSoC4/I2S_1.c **** *******************************************************************************/
+ 158:Generated_Source\PSoC4/I2S_1.c **** void I2S_1_Start(void) 
+ 159:Generated_Source\PSoC4/I2S_1.c **** {
+ 141              		.loc 1 159 0
+ 142              		.cfi_startproc
+ 143              		@ args = 0, pretend = 0, frame = 0
+ 144              		@ frame_needed = 1, uses_anonymous_args = 0
+ 145 0000 80B5     		push	{r7, lr}
+ 146              		.cfi_def_cfa_offset 8
+ 147              		.cfi_offset 7, -8
+ 148              		.cfi_offset 14, -4
+ 149 0002 00AF     		add	r7, sp, #0
+ 150              		.cfi_def_cfa_register 7
+ 160:Generated_Source\PSoC4/I2S_1.c ****     if(0u == I2S_1_initVar)
+ 151              		.loc 1 160 0
+ 152 0004 064B     		ldr	r3, .L9
+ 153 0006 1B78     		ldrb	r3, [r3]
+ 154 0008 002B     		cmp	r3, #0
+ 155 000a 04D1     		bne	.L8
+ 161:Generated_Source\PSoC4/I2S_1.c ****     {
+ 162:Generated_Source\PSoC4/I2S_1.c ****         I2S_1_Init();
+ 156              		.loc 1 162 0
+ 157 000c FFF7FEFF 		bl	I2S_1_Init
+ 163:Generated_Source\PSoC4/I2S_1.c ****         I2S_1_initVar = 1u;
+ 158              		.loc 1 163 0
+ 159 0010 034B     		ldr	r3, .L9
+ 160 0012 0122     		movs	r2, #1
+ 161 0014 1A70     		strb	r2, [r3]
+ 162              	.L8:
+ 164:Generated_Source\PSoC4/I2S_1.c ****     }
+ 165:Generated_Source\PSoC4/I2S_1.c **** 
+ 166:Generated_Source\PSoC4/I2S_1.c ****     I2S_1_Enable();
+ 163              		.loc 1 166 0
+ 164 0016 FFF7FEFF 		bl	I2S_1_Enable
+ 167:Generated_Source\PSoC4/I2S_1.c **** }
+ 165              		.loc 1 167 0
+ 166 001a C046     		nop
+ 167 001c BD46     		mov	sp, r7
+ 168              		@ sp needed
+ 169 001e 80BD     		pop	{r7, pc}
+ 170              	.L10:
+ 171              		.align	2
+ 172              	.L9:
+ 173 0020 00000000 		.word	I2S_1_initVar
+ 174              		.cfi_endproc
+ 175              	.LFE4:
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 7
+
+
+ 176              		.size	I2S_1_Start, .-I2S_1_Start
+ 177              		.section	.text.I2S_1_Stop,"ax",%progbits
+ 178              		.align	2
+ 179              		.global	I2S_1_Stop
+ 180              		.code	16
+ 181              		.thumb_func
+ 182              		.type	I2S_1_Stop, %function
+ 183              	I2S_1_Stop:
+ 184              	.LFB5:
+ 168:Generated_Source\PSoC4/I2S_1.c **** 
+ 169:Generated_Source\PSoC4/I2S_1.c **** 
+ 170:Generated_Source\PSoC4/I2S_1.c **** /*******************************************************************************
+ 171:Generated_Source\PSoC4/I2S_1.c **** * Function Name: I2S_1_Stop
+ 172:Generated_Source\PSoC4/I2S_1.c **** ********************************************************************************
+ 173:Generated_Source\PSoC4/I2S_1.c **** *
+ 174:Generated_Source\PSoC4/I2S_1.c **** * Summary:
+ 175:Generated_Source\PSoC4/I2S_1.c **** *  Disables the I2S interface. The sck and ws outputs are set to 0. The Tx and
+ 176:Generated_Source\PSoC4/I2S_1.c **** *  Rx directions are disabled and their FIFOs are cleared.
+ 177:Generated_Source\PSoC4/I2S_1.c **** *
+ 178:Generated_Source\PSoC4/I2S_1.c **** * Parameters:
+ 179:Generated_Source\PSoC4/I2S_1.c **** *  None.
+ 180:Generated_Source\PSoC4/I2S_1.c **** *
+ 181:Generated_Source\PSoC4/I2S_1.c **** * Return:
+ 182:Generated_Source\PSoC4/I2S_1.c **** *  None.
+ 183:Generated_Source\PSoC4/I2S_1.c **** *
+ 184:Generated_Source\PSoC4/I2S_1.c **** *******************************************************************************/
+ 185:Generated_Source\PSoC4/I2S_1.c **** void I2S_1_Stop(void) 
+ 186:Generated_Source\PSoC4/I2S_1.c **** {
+ 185              		.loc 1 186 0
+ 186              		.cfi_startproc
+ 187              		@ args = 0, pretend = 0, frame = 8
+ 188              		@ frame_needed = 1, uses_anonymous_args = 0
+ 189 0000 90B5     		push	{r4, r7, lr}
+ 190              		.cfi_def_cfa_offset 12
+ 191              		.cfi_offset 4, -12
+ 192              		.cfi_offset 7, -8
+ 193              		.cfi_offset 14, -4
+ 194 0002 83B0     		sub	sp, sp, #12
+ 195              		.cfi_def_cfa_offset 24
+ 196 0004 00AF     		add	r7, sp, #0
+ 197              		.cfi_def_cfa_register 7
+ 187:Generated_Source\PSoC4/I2S_1.c ****     uint8 enableInterrupts;
+ 188:Generated_Source\PSoC4/I2S_1.c **** 
+ 189:Generated_Source\PSoC4/I2S_1.c ****     I2S_1_CONTROL_REG &= (uint8)~I2S_1_EN;
+ 198              		.loc 1 189 0
+ 199 0006 124A     		ldr	r2, .L12
+ 200 0008 114B     		ldr	r3, .L12
+ 201 000a 1B78     		ldrb	r3, [r3]
+ 202 000c DBB2     		uxtb	r3, r3
+ 203 000e 0421     		movs	r1, #4
+ 204 0010 8B43     		bics	r3, r1
+ 205 0012 DBB2     		uxtb	r3, r3
+ 206 0014 1370     		strb	r3, [r2]
+ 190:Generated_Source\PSoC4/I2S_1.c **** 
+ 191:Generated_Source\PSoC4/I2S_1.c ****     enableInterrupts = CyEnterCriticalSection();
+ 207              		.loc 1 191 0
+ 208 0016 FC1D     		adds	r4, r7, #7
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 8
+
+
+ 209 0018 FFF7FEFF 		bl	CyEnterCriticalSection
+ 210 001c 0300     		movs	r3, r0
+ 211 001e 2370     		strb	r3, [r4]
+ 192:Generated_Source\PSoC4/I2S_1.c ****     I2S_1_AUX_CONTROL_REG &= (uint8)~I2S_1_CNT_START;
+ 212              		.loc 1 192 0
+ 213 0020 0C4A     		ldr	r2, .L12+4
+ 214 0022 0C4B     		ldr	r3, .L12+4
+ 215 0024 1B78     		ldrb	r3, [r3]
+ 216 0026 DBB2     		uxtb	r3, r3
+ 217 0028 2021     		movs	r1, #32
+ 218 002a 8B43     		bics	r3, r1
+ 219 002c DBB2     		uxtb	r3, r3
+ 220 002e 1370     		strb	r3, [r2]
+ 193:Generated_Source\PSoC4/I2S_1.c ****     CyExitCriticalSection(enableInterrupts);
+ 221              		.loc 1 193 0
+ 222 0030 FB1D     		adds	r3, r7, #7
+ 223 0032 1B78     		ldrb	r3, [r3]
+ 224 0034 1800     		movs	r0, r3
+ 225 0036 FFF7FEFF 		bl	CyExitCriticalSection
+ 194:Generated_Source\PSoC4/I2S_1.c **** 
+ 195:Generated_Source\PSoC4/I2S_1.c ****     /* Clear counter value to force reload when component is enabled */
+ 196:Generated_Source\PSoC4/I2S_1.c ****     I2S_1_CNT_COUNT_REG = 0u;
+ 226              		.loc 1 196 0
+ 227 003a 074B     		ldr	r3, .L12+8
+ 228 003c 0022     		movs	r2, #0
+ 229 003e 1A70     		strb	r2, [r3]
+ 197:Generated_Source\PSoC4/I2S_1.c **** 
+ 198:Generated_Source\PSoC4/I2S_1.c ****     #if (I2S_1_TX_DIRECTION_ENABLE)
+ 199:Generated_Source\PSoC4/I2S_1.c ****         I2S_1_DisableTx();
+ 200:Generated_Source\PSoC4/I2S_1.c ****         I2S_1_ClearTxFIFO();
+ 201:Generated_Source\PSoC4/I2S_1.c ****     #endif /* (I2S_1_TX_DIRECTION_ENABLE) */
+ 202:Generated_Source\PSoC4/I2S_1.c ****     
+ 203:Generated_Source\PSoC4/I2S_1.c ****     #if (I2S_1_RX_DIRECTION_ENABLE)
+ 204:Generated_Source\PSoC4/I2S_1.c ****         I2S_1_DisableRx();
+ 230              		.loc 1 204 0
+ 231 0040 FFF7FEFF 		bl	I2S_1_DisableRx
+ 205:Generated_Source\PSoC4/I2S_1.c ****         I2S_1_ClearRxFIFO();
+ 232              		.loc 1 205 0
+ 233 0044 FFF7FEFF 		bl	I2S_1_ClearRxFIFO
+ 206:Generated_Source\PSoC4/I2S_1.c ****     #endif /* (I2S_1_RX_DIRECTION_ENABLE) */
+ 207:Generated_Source\PSoC4/I2S_1.c **** }
+ 234              		.loc 1 207 0
+ 235 0048 C046     		nop
+ 236 004a BD46     		mov	sp, r7
+ 237 004c 03B0     		add	sp, sp, #12
+ 238              		@ sp needed
+ 239 004e 90BD     		pop	{r4, r7, pc}
+ 240              	.L13:
+ 241              		.align	2
+ 242              	.L12:
+ 243 0050 71000F40 		.word	1074724977
+ 244 0054 90000F40 		.word	1074725008
+ 245 0058 70000F40 		.word	1074724976
+ 246              		.cfi_endproc
+ 247              	.LFE5:
+ 248              		.size	I2S_1_Stop, .-I2S_1_Stop
+ 249              		.section	.text.I2S_1_EnableRx,"ax",%progbits
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 9
+
+
+ 250              		.align	2
+ 251              		.global	I2S_1_EnableRx
+ 252              		.code	16
+ 253              		.thumb_func
+ 254              		.type	I2S_1_EnableRx, %function
+ 255              	I2S_1_EnableRx:
+ 256              	.LFB6:
+ 208:Generated_Source\PSoC4/I2S_1.c **** 
+ 209:Generated_Source\PSoC4/I2S_1.c **** #if (I2S_1_DYNAMIC_BIT_RESOLUTION)
+ 210:Generated_Source\PSoC4/I2S_1.c ****     /*******************************************************************************
+ 211:Generated_Source\PSoC4/I2S_1.c ****     * Function Name: I2S_1_SetDataBits
+ 212:Generated_Source\PSoC4/I2S_1.c ****     ********************************************************************************
+ 213:Generated_Source\PSoC4/I2S_1.c ****     *
+ 214:Generated_Source\PSoC4/I2S_1.c ****     * Summary:
+ 215:Generated_Source\PSoC4/I2S_1.c ****     *  Sets the number of data bits for each sample. The component must be stopped
+ 216:Generated_Source\PSoC4/I2S_1.c ****     *  before calling this API.
+ 217:Generated_Source\PSoC4/I2S_1.c ****     *
+ 218:Generated_Source\PSoC4/I2S_1.c ****     * Parameters:
+ 219:Generated_Source\PSoC4/I2S_1.c ****     *  dataBits: the number of data bits for each sample. Valid values - 8/16/24/32.
+ 220:Generated_Source\PSoC4/I2S_1.c ****     *  If Tx or Rx byte swapping is enabled, valid values are 16 and 24.
+ 221:Generated_Source\PSoC4/I2S_1.c ****     *
+ 222:Generated_Source\PSoC4/I2S_1.c ****     * Return:
+ 223:Generated_Source\PSoC4/I2S_1.c ****     *  CYRET_SUCCESS  : Operation is successful
+ 224:Generated_Source\PSoC4/I2S_1.c ****     *  CYRET_BAD_PARAM: Invalid parameter value
+ 225:Generated_Source\PSoC4/I2S_1.c ****     *
+ 226:Generated_Source\PSoC4/I2S_1.c ****     * Side effects:
+ 227:Generated_Source\PSoC4/I2S_1.c ****     *  Calling this API while the component is operating may cause unexpected
+ 228:Generated_Source\PSoC4/I2S_1.c ****     *  behavior.
+ 229:Generated_Source\PSoC4/I2S_1.c ****     *
+ 230:Generated_Source\PSoC4/I2S_1.c ****     *******************************************************************************/
+ 231:Generated_Source\PSoC4/I2S_1.c ****     cystatus I2S_1_SetDataBits(uint8 dataBits)   
+ 232:Generated_Source\PSoC4/I2S_1.c ****     {
+ 233:Generated_Source\PSoC4/I2S_1.c ****         cystatus status;
+ 234:Generated_Source\PSoC4/I2S_1.c **** 
+ 235:Generated_Source\PSoC4/I2S_1.c ****         CYASSERT((dataBits >= I2S_1_MIN_DATA_BITS) && (dataBits <= I2S_1_MAX_DATA_BITS));
+ 236:Generated_Source\PSoC4/I2S_1.c **** 
+ 237:Generated_Source\PSoC4/I2S_1.c ****         status = CYRET_SUCCESS;
+ 238:Generated_Source\PSoC4/I2S_1.c ****         /* The component must be stopped prior calling this API. Therefore
+ 239:Generated_Source\PSoC4/I2S_1.c ****         * all the control bits except the bits modified are zeros.
+ 240:Generated_Source\PSoC4/I2S_1.c ****         */
+ 241:Generated_Source\PSoC4/I2S_1.c ****         switch(dataBits)
+ 242:Generated_Source\PSoC4/I2S_1.c ****         {
+ 243:Generated_Source\PSoC4/I2S_1.c ****         case I2S_1_8BIT_DATA:
+ 244:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_CONTROL_REG = I2S_1_8BIT_MODE;
+ 245:Generated_Source\PSoC4/I2S_1.c ****             break;
+ 246:Generated_Source\PSoC4/I2S_1.c ****         case I2S_1_16BIT_DATA:
+ 247:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_CONTROL_REG = I2S_1_16BIT_MODE;
+ 248:Generated_Source\PSoC4/I2S_1.c ****             break;
+ 249:Generated_Source\PSoC4/I2S_1.c ****         case I2S_1_24BIT_DATA:
+ 250:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_CONTROL_REG = I2S_1_24BIT_MODE;
+ 251:Generated_Source\PSoC4/I2S_1.c ****             break;
+ 252:Generated_Source\PSoC4/I2S_1.c ****         case I2S_1_32BIT_DATA:
+ 253:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_CONTROL_REG = I2S_1_32BIT_MODE;
+ 254:Generated_Source\PSoC4/I2S_1.c ****             break;
+ 255:Generated_Source\PSoC4/I2S_1.c ****         default: status = CYRET_BAD_PARAM;
+ 256:Generated_Source\PSoC4/I2S_1.c ****             break;
+ 257:Generated_Source\PSoC4/I2S_1.c ****         }
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 10
+
+
+ 258:Generated_Source\PSoC4/I2S_1.c **** 
+ 259:Generated_Source\PSoC4/I2S_1.c ****         return (status);
+ 260:Generated_Source\PSoC4/I2S_1.c ****     }
+ 261:Generated_Source\PSoC4/I2S_1.c **** 
+ 262:Generated_Source\PSoC4/I2S_1.c **** #endif /* I2S_1_DYNAMIC_BIT_RESOLUTION */
+ 263:Generated_Source\PSoC4/I2S_1.c **** 
+ 264:Generated_Source\PSoC4/I2S_1.c **** #if(I2S_1_TX_DIRECTION_ENABLE)
+ 265:Generated_Source\PSoC4/I2S_1.c ****     /*******************************************************************************
+ 266:Generated_Source\PSoC4/I2S_1.c ****     * Function Name: I2S_1_EnableTx
+ 267:Generated_Source\PSoC4/I2S_1.c ****     ********************************************************************************
+ 268:Generated_Source\PSoC4/I2S_1.c ****     *
+ 269:Generated_Source\PSoC4/I2S_1.c ****     * Summary:
+ 270:Generated_Source\PSoC4/I2S_1.c ****     *  Enables the Tx direction of the I2S interface.  At the next word
+ 271:Generated_Source\PSoC4/I2S_1.c ****     *  select falling edge transmission will begin.
+ 272:Generated_Source\PSoC4/I2S_1.c ****     *
+ 273:Generated_Source\PSoC4/I2S_1.c ****     * Parameters:
+ 274:Generated_Source\PSoC4/I2S_1.c ****     *  None.
+ 275:Generated_Source\PSoC4/I2S_1.c ****     *
+ 276:Generated_Source\PSoC4/I2S_1.c ****     * Return:
+ 277:Generated_Source\PSoC4/I2S_1.c ****     *  None.
+ 278:Generated_Source\PSoC4/I2S_1.c ****     *
+ 279:Generated_Source\PSoC4/I2S_1.c ****     *******************************************************************************/
+ 280:Generated_Source\PSoC4/I2S_1.c ****     void I2S_1_EnableTx(void) 
+ 281:Generated_Source\PSoC4/I2S_1.c ****     {
+ 282:Generated_Source\PSoC4/I2S_1.c ****         uint8 enableInterrupts;
+ 283:Generated_Source\PSoC4/I2S_1.c **** 
+ 284:Generated_Source\PSoC4/I2S_1.c ****         enableInterrupts = CyEnterCriticalSection();
+ 285:Generated_Source\PSoC4/I2S_1.c ****         I2S_1_TX_STS0_1_ACTL_REG |= I2S_1_INT_EN;
+ 286:Generated_Source\PSoC4/I2S_1.c ****         #ifdef I2S_1_TX_STS2_3_ACTL_REG
+ 287:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_TX_STS2_3_ACTL_REG |= I2S_1_INT_EN;
+ 288:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_TX_STS2_3_ACTL_REG */
+ 289:Generated_Source\PSoC4/I2S_1.c ****         #ifdef I2S_1_TX_STS4_ACTL_REG
+ 290:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_TX_STS4_ACTL_REG |= I2S_1_INT_EN;
+ 291:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_TX_STS4_ACTL_REG */
+ 292:Generated_Source\PSoC4/I2S_1.c ****         CyExitCriticalSection(enableInterrupts);
+ 293:Generated_Source\PSoC4/I2S_1.c ****         
+ 294:Generated_Source\PSoC4/I2S_1.c ****         I2S_1_CONTROL_REG |= I2S_1_TX_EN;
+ 295:Generated_Source\PSoC4/I2S_1.c ****     }
+ 296:Generated_Source\PSoC4/I2S_1.c **** 
+ 297:Generated_Source\PSoC4/I2S_1.c **** 
+ 298:Generated_Source\PSoC4/I2S_1.c ****     /*******************************************************************************
+ 299:Generated_Source\PSoC4/I2S_1.c ****     * Function Name: I2S_1_DisableTx
+ 300:Generated_Source\PSoC4/I2S_1.c ****     ********************************************************************************
+ 301:Generated_Source\PSoC4/I2S_1.c ****     *
+ 302:Generated_Source\PSoC4/I2S_1.c ****     * Summary:
+ 303:Generated_Source\PSoC4/I2S_1.c ****     *  Disables the Tx direction of the I2S interface.  At the next word
+ 304:Generated_Source\PSoC4/I2S_1.c ****     *  select falling edge transmission of data will stop and a constant 0 value
+ 305:Generated_Source\PSoC4/I2S_1.c ****     *  will be transmitted.
+ 306:Generated_Source\PSoC4/I2S_1.c ****     *
+ 307:Generated_Source\PSoC4/I2S_1.c ****     * Parameters:
+ 308:Generated_Source\PSoC4/I2S_1.c ****     *  None.
+ 309:Generated_Source\PSoC4/I2S_1.c ****     *
+ 310:Generated_Source\PSoC4/I2S_1.c ****     * Return:
+ 311:Generated_Source\PSoC4/I2S_1.c ****     *  None.
+ 312:Generated_Source\PSoC4/I2S_1.c ****     *
+ 313:Generated_Source\PSoC4/I2S_1.c ****     *******************************************************************************/
+ 314:Generated_Source\PSoC4/I2S_1.c ****     void I2S_1_DisableTx(void) 
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 11
+
+
+ 315:Generated_Source\PSoC4/I2S_1.c ****     {
+ 316:Generated_Source\PSoC4/I2S_1.c ****         uint8 enableInterrupts;
+ 317:Generated_Source\PSoC4/I2S_1.c **** 
+ 318:Generated_Source\PSoC4/I2S_1.c ****         I2S_1_CONTROL_REG &= (uint8)~I2S_1_TX_EN;
+ 319:Generated_Source\PSoC4/I2S_1.c **** 
+ 320:Generated_Source\PSoC4/I2S_1.c ****         enableInterrupts = CyEnterCriticalSection();
+ 321:Generated_Source\PSoC4/I2S_1.c ****         I2S_1_TX_STS0_1_ACTL_REG &= (uint8)~I2S_1_INT_EN;
+ 322:Generated_Source\PSoC4/I2S_1.c ****         #ifdef I2S_1_TX_STS2_3_ACTL_REG
+ 323:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_TX_STS2_3_ACTL_REG &= (uint8)~I2S_1_INT_EN;
+ 324:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_TX_STS2_3_ACTL_REG */
+ 325:Generated_Source\PSoC4/I2S_1.c ****         #ifdef I2S_1_TX_STS4_ACTL_REG
+ 326:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_TX_STS4_ACTL_REG &= (uint8)~I2S_1_INT_EN;
+ 327:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_TX_STS4_ACTL_REG */
+ 328:Generated_Source\PSoC4/I2S_1.c ****         CyExitCriticalSection(enableInterrupts);
+ 329:Generated_Source\PSoC4/I2S_1.c ****     }
+ 330:Generated_Source\PSoC4/I2S_1.c **** 
+ 331:Generated_Source\PSoC4/I2S_1.c **** 
+ 332:Generated_Source\PSoC4/I2S_1.c ****     /*******************************************************************************
+ 333:Generated_Source\PSoC4/I2S_1.c ****     * Function Name: I2S_1_ClearTxFIFO
+ 334:Generated_Source\PSoC4/I2S_1.c ****     ********************************************************************************
+ 335:Generated_Source\PSoC4/I2S_1.c ****     *
+ 336:Generated_Source\PSoC4/I2S_1.c ****     * Summary:
+ 337:Generated_Source\PSoC4/I2S_1.c ****     *  Clears out the FIFOs for all Tx channels. Any data present in the FIFO will
+ 338:Generated_Source\PSoC4/I2S_1.c ****     *  not be sent. This call should be made only when the Tx direction is disabled.
+ 339:Generated_Source\PSoC4/I2S_1.c ****     *
+ 340:Generated_Source\PSoC4/I2S_1.c ****     * Parameters:
+ 341:Generated_Source\PSoC4/I2S_1.c ****     *  None.
+ 342:Generated_Source\PSoC4/I2S_1.c ****     *
+ 343:Generated_Source\PSoC4/I2S_1.c ****     * Return:
+ 344:Generated_Source\PSoC4/I2S_1.c ****     *  None.
+ 345:Generated_Source\PSoC4/I2S_1.c ****     *
+ 346:Generated_Source\PSoC4/I2S_1.c ****     *******************************************************************************/
+ 347:Generated_Source\PSoC4/I2S_1.c ****     void I2S_1_ClearTxFIFO(void) 
+ 348:Generated_Source\PSoC4/I2S_1.c ****     {
+ 349:Generated_Source\PSoC4/I2S_1.c ****         uint8 enableInterrupts;
+ 350:Generated_Source\PSoC4/I2S_1.c **** 
+ 351:Generated_Source\PSoC4/I2S_1.c ****         enableInterrupts = CyEnterCriticalSection();
+ 352:Generated_Source\PSoC4/I2S_1.c ****         I2S_1_CLEAR_TX_FIFO(CH0);
+ 353:Generated_Source\PSoC4/I2S_1.c ****         #if (I2S_1_TX_STEREO_1_PRESENT)
+ 354:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_CLEAR_TX_FIFO(CH1);
+ 355:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_TX_STEREO_1_PRESENT */
+ 356:Generated_Source\PSoC4/I2S_1.c ****         #if (I2S_1_TX_STEREO_2_PRESENT)
+ 357:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_CLEAR_TX_FIFO(CH2);
+ 358:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_TX_STEREO_2_PRESENT */
+ 359:Generated_Source\PSoC4/I2S_1.c ****         #if (I2S_1_TX_STEREO_3_PRESENT)
+ 360:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_CLEAR_TX_FIFO(CH3);
+ 361:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_TX_STEREO_3_PRESENT */
+ 362:Generated_Source\PSoC4/I2S_1.c ****         #if (I2S_1_TX_STEREO_4_PRESENT)
+ 363:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_CLEAR_TX_FIFO(CH4);
+ 364:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_TX_STEREO_4_PRESENT */
+ 365:Generated_Source\PSoC4/I2S_1.c ****         CyExitCriticalSection(enableInterrupts);
+ 366:Generated_Source\PSoC4/I2S_1.c ****     }
+ 367:Generated_Source\PSoC4/I2S_1.c **** 
+ 368:Generated_Source\PSoC4/I2S_1.c **** #endif /* (I2S_1_TX_DIRECTION_ENABLE) */
+ 369:Generated_Source\PSoC4/I2S_1.c **** 
+ 370:Generated_Source\PSoC4/I2S_1.c **** 
+ 371:Generated_Source\PSoC4/I2S_1.c **** #if(I2S_1_RX_DIRECTION_ENABLE)
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 12
+
+
+ 372:Generated_Source\PSoC4/I2S_1.c ****     /*******************************************************************************
+ 373:Generated_Source\PSoC4/I2S_1.c ****     * Function Name: I2S_1_EnableRx
+ 374:Generated_Source\PSoC4/I2S_1.c ****     ********************************************************************************
+ 375:Generated_Source\PSoC4/I2S_1.c ****     *
+ 376:Generated_Source\PSoC4/I2S_1.c ****     * Summary:
+ 377:Generated_Source\PSoC4/I2S_1.c ****     *  Enables the Rx direction of the I2S interface.  At the next word
+ 378:Generated_Source\PSoC4/I2S_1.c ****     *  select falling edge reception of data will begin.
+ 379:Generated_Source\PSoC4/I2S_1.c ****     *
+ 380:Generated_Source\PSoC4/I2S_1.c ****     * Parameters:
+ 381:Generated_Source\PSoC4/I2S_1.c ****     *  None.
+ 382:Generated_Source\PSoC4/I2S_1.c ****     *
+ 383:Generated_Source\PSoC4/I2S_1.c ****     * Return:
+ 384:Generated_Source\PSoC4/I2S_1.c ****     *  None.
+ 385:Generated_Source\PSoC4/I2S_1.c ****     *
+ 386:Generated_Source\PSoC4/I2S_1.c ****     *******************************************************************************/
+ 387:Generated_Source\PSoC4/I2S_1.c ****     void I2S_1_EnableRx(void) 
+ 388:Generated_Source\PSoC4/I2S_1.c ****     {
+ 257              		.loc 1 388 0
+ 258              		.cfi_startproc
+ 259              		@ args = 0, pretend = 0, frame = 8
+ 260              		@ frame_needed = 1, uses_anonymous_args = 0
+ 261 0000 90B5     		push	{r4, r7, lr}
+ 262              		.cfi_def_cfa_offset 12
+ 263              		.cfi_offset 4, -12
+ 264              		.cfi_offset 7, -8
+ 265              		.cfi_offset 14, -4
+ 266 0002 83B0     		sub	sp, sp, #12
+ 267              		.cfi_def_cfa_offset 24
+ 268 0004 00AF     		add	r7, sp, #0
+ 269              		.cfi_def_cfa_register 7
+ 389:Generated_Source\PSoC4/I2S_1.c ****         uint8 enableInterrupts;
+ 390:Generated_Source\PSoC4/I2S_1.c **** 
+ 391:Generated_Source\PSoC4/I2S_1.c ****         enableInterrupts = CyEnterCriticalSection();
+ 270              		.loc 1 391 0
+ 271 0006 FC1D     		adds	r4, r7, #7
+ 272 0008 FFF7FEFF 		bl	CyEnterCriticalSection
+ 273 000c 0300     		movs	r3, r0
+ 274 000e 2370     		strb	r3, [r4]
+ 392:Generated_Source\PSoC4/I2S_1.c ****         I2S_1_RX_STS0_1_ACTL_REG |= I2S_1_INT_EN;
+ 275              		.loc 1 392 0
+ 276 0010 0C4A     		ldr	r2, .L15
+ 277 0012 0C4B     		ldr	r3, .L15
+ 278 0014 1B78     		ldrb	r3, [r3]
+ 279 0016 DBB2     		uxtb	r3, r3
+ 280 0018 1021     		movs	r1, #16
+ 281 001a 0B43     		orrs	r3, r1
+ 282 001c DBB2     		uxtb	r3, r3
+ 283 001e 1370     		strb	r3, [r2]
+ 393:Generated_Source\PSoC4/I2S_1.c ****         #ifdef I2S_1_RX_STS2_3_ACTL_REG
+ 394:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_RX_STS2_3_ACTL_REG |= I2S_1_INT_EN;
+ 395:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_RX_STS2_3_ACTL_REG */
+ 396:Generated_Source\PSoC4/I2S_1.c ****         #ifdef I2S_1_RX_STS4_ACTL_REG
+ 397:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_RX_STS4_ACTL_REG |= I2S_1_INT_EN;
+ 398:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_RX_STS4_ACTL_REG */
+ 399:Generated_Source\PSoC4/I2S_1.c ****         CyExitCriticalSection(enableInterrupts);
+ 284              		.loc 1 399 0
+ 285 0020 FB1D     		adds	r3, r7, #7
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 13
+
+
+ 286 0022 1B78     		ldrb	r3, [r3]
+ 287 0024 1800     		movs	r0, r3
+ 288 0026 FFF7FEFF 		bl	CyExitCriticalSection
+ 400:Generated_Source\PSoC4/I2S_1.c ****         
+ 401:Generated_Source\PSoC4/I2S_1.c ****         I2S_1_CONTROL_REG |= I2S_1_RX_EN;
+ 289              		.loc 1 401 0
+ 290 002a 074A     		ldr	r2, .L15+4
+ 291 002c 064B     		ldr	r3, .L15+4
+ 292 002e 1B78     		ldrb	r3, [r3]
+ 293 0030 DBB2     		uxtb	r3, r3
+ 294 0032 0221     		movs	r1, #2
+ 295 0034 0B43     		orrs	r3, r1
+ 296 0036 DBB2     		uxtb	r3, r3
+ 297 0038 1370     		strb	r3, [r2]
+ 402:Generated_Source\PSoC4/I2S_1.c ****     }
+ 298              		.loc 1 402 0
+ 299 003a C046     		nop
+ 300 003c BD46     		mov	sp, r7
+ 301 003e 03B0     		add	sp, sp, #12
+ 302              		@ sp needed
+ 303 0040 90BD     		pop	{r4, r7, pc}
+ 304              	.L16:
+ 305 0042 C046     		.align	2
+ 306              	.L15:
+ 307 0044 91000F40 		.word	1074725009
+ 308 0048 71000F40 		.word	1074724977
+ 309              		.cfi_endproc
+ 310              	.LFE6:
+ 311              		.size	I2S_1_EnableRx, .-I2S_1_EnableRx
+ 312              		.section	.text.I2S_1_DisableRx,"ax",%progbits
+ 313              		.align	2
+ 314              		.global	I2S_1_DisableRx
+ 315              		.code	16
+ 316              		.thumb_func
+ 317              		.type	I2S_1_DisableRx, %function
+ 318              	I2S_1_DisableRx:
+ 319              	.LFB7:
+ 403:Generated_Source\PSoC4/I2S_1.c **** 
+ 404:Generated_Source\PSoC4/I2S_1.c **** 
+ 405:Generated_Source\PSoC4/I2S_1.c ****     /*******************************************************************************
+ 406:Generated_Source\PSoC4/I2S_1.c ****     * Function Name: I2S_1_DisableRx
+ 407:Generated_Source\PSoC4/I2S_1.c ****     ********************************************************************************
+ 408:Generated_Source\PSoC4/I2S_1.c ****     *
+ 409:Generated_Source\PSoC4/I2S_1.c ****     * Summary:
+ 410:Generated_Source\PSoC4/I2S_1.c ****     *  Disables the Rx direction of the I2S interface.
+ 411:Generated_Source\PSoC4/I2S_1.c ****     *
+ 412:Generated_Source\PSoC4/I2S_1.c ****     * Parameters:
+ 413:Generated_Source\PSoC4/I2S_1.c ****     *  None.
+ 414:Generated_Source\PSoC4/I2S_1.c ****     *
+ 415:Generated_Source\PSoC4/I2S_1.c ****     * Return:
+ 416:Generated_Source\PSoC4/I2S_1.c ****     *  None.
+ 417:Generated_Source\PSoC4/I2S_1.c ****     *
+ 418:Generated_Source\PSoC4/I2S_1.c ****     *******************************************************************************/
+ 419:Generated_Source\PSoC4/I2S_1.c ****     void I2S_1_DisableRx(void) 
+ 420:Generated_Source\PSoC4/I2S_1.c ****     {
+ 320              		.loc 1 420 0
+ 321              		.cfi_startproc
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 14
+
+
+ 322              		@ args = 0, pretend = 0, frame = 8
+ 323              		@ frame_needed = 1, uses_anonymous_args = 0
+ 324 0000 90B5     		push	{r4, r7, lr}
+ 325              		.cfi_def_cfa_offset 12
+ 326              		.cfi_offset 4, -12
+ 327              		.cfi_offset 7, -8
+ 328              		.cfi_offset 14, -4
+ 329 0002 83B0     		sub	sp, sp, #12
+ 330              		.cfi_def_cfa_offset 24
+ 331 0004 00AF     		add	r7, sp, #0
+ 332              		.cfi_def_cfa_register 7
+ 421:Generated_Source\PSoC4/I2S_1.c ****         uint8 enableInterrupts;
+ 422:Generated_Source\PSoC4/I2S_1.c **** 
+ 423:Generated_Source\PSoC4/I2S_1.c ****         I2S_1_CONTROL_REG &= (uint8)~I2S_1_RX_EN;
+ 333              		.loc 1 423 0
+ 334 0006 0F4A     		ldr	r2, .L18
+ 335 0008 0E4B     		ldr	r3, .L18
+ 336 000a 1B78     		ldrb	r3, [r3]
+ 337 000c DBB2     		uxtb	r3, r3
+ 338 000e 0221     		movs	r1, #2
+ 339 0010 8B43     		bics	r3, r1
+ 340 0012 DBB2     		uxtb	r3, r3
+ 341 0014 1370     		strb	r3, [r2]
+ 424:Generated_Source\PSoC4/I2S_1.c **** 
+ 425:Generated_Source\PSoC4/I2S_1.c ****         enableInterrupts = CyEnterCriticalSection();
+ 342              		.loc 1 425 0
+ 343 0016 FC1D     		adds	r4, r7, #7
+ 344 0018 FFF7FEFF 		bl	CyEnterCriticalSection
+ 345 001c 0300     		movs	r3, r0
+ 346 001e 2370     		strb	r3, [r4]
+ 426:Generated_Source\PSoC4/I2S_1.c ****         I2S_1_RX_STS0_1_ACTL_REG &= (uint8)~I2S_1_INT_EN;
+ 347              		.loc 1 426 0
+ 348 0020 094A     		ldr	r2, .L18+4
+ 349 0022 094B     		ldr	r3, .L18+4
+ 350 0024 1B78     		ldrb	r3, [r3]
+ 351 0026 DBB2     		uxtb	r3, r3
+ 352 0028 1021     		movs	r1, #16
+ 353 002a 8B43     		bics	r3, r1
+ 354 002c DBB2     		uxtb	r3, r3
+ 355 002e 1370     		strb	r3, [r2]
+ 427:Generated_Source\PSoC4/I2S_1.c ****         #ifdef I2S_1_RX_STS2_3_ACTL_REG
+ 428:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_RX_STS2_3_ACTL_REG &= (uint8)~I2S_1_INT_EN;
+ 429:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_RX_STS2_3_ACTL_REG */
+ 430:Generated_Source\PSoC4/I2S_1.c ****         #ifdef I2S_1_RX_STS4_ACTL_REG
+ 431:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_RX_STS4_ACTL_REG &= (uint8)~I2S_1_INT_EN;
+ 432:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_RX_STS4_ACTL_REG */
+ 433:Generated_Source\PSoC4/I2S_1.c ****         CyExitCriticalSection(enableInterrupts);
+ 356              		.loc 1 433 0
+ 357 0030 FB1D     		adds	r3, r7, #7
+ 358 0032 1B78     		ldrb	r3, [r3]
+ 359 0034 1800     		movs	r0, r3
+ 360 0036 FFF7FEFF 		bl	CyExitCriticalSection
+ 434:Generated_Source\PSoC4/I2S_1.c ****     }
+ 361              		.loc 1 434 0
+ 362 003a C046     		nop
+ 363 003c BD46     		mov	sp, r7
+ 364 003e 03B0     		add	sp, sp, #12
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 15
+
+
+ 365              		@ sp needed
+ 366 0040 90BD     		pop	{r4, r7, pc}
+ 367              	.L19:
+ 368 0042 C046     		.align	2
+ 369              	.L18:
+ 370 0044 71000F40 		.word	1074724977
+ 371 0048 91000F40 		.word	1074725009
+ 372              		.cfi_endproc
+ 373              	.LFE7:
+ 374              		.size	I2S_1_DisableRx, .-I2S_1_DisableRx
+ 375              		.section	.text.I2S_1_ClearRxFIFO,"ax",%progbits
+ 376              		.align	2
+ 377              		.global	I2S_1_ClearRxFIFO
+ 378              		.code	16
+ 379              		.thumb_func
+ 380              		.type	I2S_1_ClearRxFIFO, %function
+ 381              	I2S_1_ClearRxFIFO:
+ 382              	.LFB8:
+ 435:Generated_Source\PSoC4/I2S_1.c **** 
+ 436:Generated_Source\PSoC4/I2S_1.c **** 
+ 437:Generated_Source\PSoC4/I2S_1.c ****     /*******************************************************************************
+ 438:Generated_Source\PSoC4/I2S_1.c ****     * Function Name: I2S_1_ClearRxFIFO
+ 439:Generated_Source\PSoC4/I2S_1.c ****     ********************************************************************************
+ 440:Generated_Source\PSoC4/I2S_1.c ****     *
+ 441:Generated_Source\PSoC4/I2S_1.c ****     * Summary:
+ 442:Generated_Source\PSoC4/I2S_1.c ****     *  Clears out the Rx FIFO.  Any data present in the FIFO will be lost.
+ 443:Generated_Source\PSoC4/I2S_1.c ****     *  This call should be made only when the Rx direction is disabled.
+ 444:Generated_Source\PSoC4/I2S_1.c ****     *
+ 445:Generated_Source\PSoC4/I2S_1.c ****     * Parameters:
+ 446:Generated_Source\PSoC4/I2S_1.c ****     *  None.
+ 447:Generated_Source\PSoC4/I2S_1.c ****     *
+ 448:Generated_Source\PSoC4/I2S_1.c ****     * Return:
+ 449:Generated_Source\PSoC4/I2S_1.c ****     *  None.
+ 450:Generated_Source\PSoC4/I2S_1.c ****     *
+ 451:Generated_Source\PSoC4/I2S_1.c ****     *******************************************************************************/
+ 452:Generated_Source\PSoC4/I2S_1.c ****     void I2S_1_ClearRxFIFO(void) 
+ 453:Generated_Source\PSoC4/I2S_1.c ****     {
+ 383              		.loc 1 453 0
+ 384              		.cfi_startproc
+ 385              		@ args = 0, pretend = 0, frame = 8
+ 386              		@ frame_needed = 1, uses_anonymous_args = 0
+ 387 0000 90B5     		push	{r4, r7, lr}
+ 388              		.cfi_def_cfa_offset 12
+ 389              		.cfi_offset 4, -12
+ 390              		.cfi_offset 7, -8
+ 391              		.cfi_offset 14, -4
+ 392 0002 83B0     		sub	sp, sp, #12
+ 393              		.cfi_def_cfa_offset 24
+ 394 0004 00AF     		add	r7, sp, #0
+ 395              		.cfi_def_cfa_register 7
+ 454:Generated_Source\PSoC4/I2S_1.c ****         uint8 enableInterrupts;
+ 455:Generated_Source\PSoC4/I2S_1.c **** 
+ 456:Generated_Source\PSoC4/I2S_1.c ****         enableInterrupts = CyEnterCriticalSection();
+ 396              		.loc 1 456 0
+ 397 0006 FC1D     		adds	r4, r7, #7
+ 398 0008 FFF7FEFF 		bl	CyEnterCriticalSection
+ 399 000c 0300     		movs	r3, r0
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 16
+
+
+ 400 000e 2370     		strb	r3, [r4]
+ 457:Generated_Source\PSoC4/I2S_1.c ****         I2S_1_CLEAR_RX_FIFO(CH0);
+ 401              		.loc 1 457 0
+ 402 0010 0C4A     		ldr	r2, .L21
+ 403 0012 0C4B     		ldr	r3, .L21
+ 404 0014 1B78     		ldrb	r3, [r3]
+ 405 0016 DBB2     		uxtb	r3, r3
+ 406 0018 0321     		movs	r1, #3
+ 407 001a 0B43     		orrs	r3, r1
+ 408 001c DBB2     		uxtb	r3, r3
+ 409 001e 1370     		strb	r3, [r2]
+ 410 0020 084A     		ldr	r2, .L21
+ 411 0022 084B     		ldr	r3, .L21
+ 412 0024 1B78     		ldrb	r3, [r3]
+ 413 0026 DBB2     		uxtb	r3, r3
+ 414 0028 0321     		movs	r1, #3
+ 415 002a 8B43     		bics	r3, r1
+ 416 002c DBB2     		uxtb	r3, r3
+ 417 002e 1370     		strb	r3, [r2]
+ 458:Generated_Source\PSoC4/I2S_1.c ****         #if (I2S_1_RX_STEREO_1_PRESENT)
+ 459:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_CLEAR_RX_FIFO(CH1);
+ 460:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_RX_STEREO_1_PRESENT */
+ 461:Generated_Source\PSoC4/I2S_1.c ****         #if (I2S_1_RX_STEREO_2_PRESENT)
+ 462:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_CLEAR_RX_FIFO(CH2);
+ 463:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_RX_STEREO_2_PRESENT */
+ 464:Generated_Source\PSoC4/I2S_1.c ****         #if (I2S_1_RX_STEREO_3_PRESENT)
+ 465:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_CLEAR_RX_FIFO(CH3);
+ 466:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_RX_STEREO_3_PRESENT */
+ 467:Generated_Source\PSoC4/I2S_1.c ****         #if (I2S_1_RX_STEREO_4_PRESENT)
+ 468:Generated_Source\PSoC4/I2S_1.c ****             I2S_1_CLEAR_RX_FIFO(CH4);
+ 469:Generated_Source\PSoC4/I2S_1.c ****         #endif /* I2S_1_RX_STEREO_4_PRESENT */
+ 470:Generated_Source\PSoC4/I2S_1.c ****         CyExitCriticalSection(enableInterrupts);
+ 418              		.loc 1 470 0
+ 419 0030 FB1D     		adds	r3, r7, #7
+ 420 0032 1B78     		ldrb	r3, [r3]
+ 421 0034 1800     		movs	r0, r3
+ 422 0036 FFF7FEFF 		bl	CyExitCriticalSection
+ 471:Generated_Source\PSoC4/I2S_1.c ****     }
+ 423              		.loc 1 471 0
+ 424 003a C046     		nop
+ 425 003c BD46     		mov	sp, r7
+ 426 003e 03B0     		add	sp, sp, #12
+ 427              		@ sp needed
+ 428 0040 90BD     		pop	{r4, r7, pc}
+ 429              	.L22:
+ 430 0042 C046     		.align	2
+ 431              	.L21:
+ 432 0044 91000F40 		.word	1074725009
+ 433              		.cfi_endproc
+ 434              	.LFE8:
+ 435              		.size	I2S_1_ClearRxFIFO, .-I2S_1_ClearRxFIFO
+ 436              		.text
+ 437              	.Letext0:
+ 438              		.file 2 "Generated_Source\\PSoC4\\cytypes.h"
+ 439              		.section	.debug_info,"",%progbits
+ 440              	.Ldebug_info0:
+ 441 0000 95010000 		.4byte	0x195
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 17
+
+
+ 442 0004 0400     		.2byte	0x4
+ 443 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 444 000a 04       		.byte	0x4
+ 445 000b 01       		.uleb128 0x1
+ 446 000c 88010000 		.4byte	.LASF24
+ 447 0010 0C       		.byte	0xc
+ 448 0011 6C000000 		.4byte	.LASF25
+ 449 0015 AE000000 		.4byte	.LASF26
+ 450 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 451 001d 00000000 		.4byte	0
+ 452 0021 00000000 		.4byte	.Ldebug_line0
+ 453 0025 02       		.uleb128 0x2
+ 454 0026 01       		.byte	0x1
+ 455 0027 06       		.byte	0x6
+ 456 0028 56010000 		.4byte	.LASF0
+ 457 002c 02       		.uleb128 0x2
+ 458 002d 01       		.byte	0x1
+ 459 002e 08       		.byte	0x8
+ 460 002f 01010000 		.4byte	.LASF1
+ 461 0033 02       		.uleb128 0x2
+ 462 0034 02       		.byte	0x2
+ 463 0035 05       		.byte	0x5
+ 464 0036 7E010000 		.4byte	.LASF2
+ 465 003a 02       		.uleb128 0x2
+ 466 003b 02       		.byte	0x2
+ 467 003c 07       		.byte	0x7
+ 468 003d 43010000 		.4byte	.LASF3
+ 469 0041 02       		.uleb128 0x2
+ 470 0042 04       		.byte	0x4
+ 471 0043 05       		.byte	0x5
+ 472 0044 14010000 		.4byte	.LASF4
+ 473 0048 02       		.uleb128 0x2
+ 474 0049 04       		.byte	0x4
+ 475 004a 07       		.byte	0x7
+ 476 004b 43000000 		.4byte	.LASF5
+ 477 004f 02       		.uleb128 0x2
+ 478 0050 08       		.byte	0x8
+ 479 0051 05       		.byte	0x5
+ 480 0052 00000000 		.4byte	.LASF6
+ 481 0056 02       		.uleb128 0x2
+ 482 0057 08       		.byte	0x8
+ 483 0058 07       		.byte	0x7
+ 484 0059 55000000 		.4byte	.LASF7
+ 485 005d 03       		.uleb128 0x3
+ 486 005e 04       		.byte	0x4
+ 487 005f 05       		.byte	0x5
+ 488 0060 696E7400 		.ascii	"int\000"
+ 489 0064 02       		.uleb128 0x2
+ 490 0065 04       		.byte	0x4
+ 491 0066 07       		.byte	0x7
+ 492 0067 0E000000 		.4byte	.LASF8
+ 493 006b 04       		.uleb128 0x4
+ 494 006c 3D000000 		.4byte	.LASF12
+ 495 0070 02       		.byte	0x2
+ 496 0071 E401     		.2byte	0x1e4
+ 497 0073 2C000000 		.4byte	0x2c
+ 498 0077 02       		.uleb128 0x2
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 18
+
+
+ 499 0078 04       		.byte	0x4
+ 500 0079 04       		.byte	0x4
+ 501 007a 8B000000 		.4byte	.LASF9
+ 502 007e 02       		.uleb128 0x2
+ 503 007f 08       		.byte	0x8
+ 504 0080 04       		.byte	0x4
+ 505 0081 1D010000 		.4byte	.LASF10
+ 506 0085 02       		.uleb128 0x2
+ 507 0086 01       		.byte	0x1
+ 508 0087 08       		.byte	0x8
+ 509 0088 0F010000 		.4byte	.LASF11
+ 510 008c 04       		.uleb128 0x4
+ 511 008d 38000000 		.4byte	.LASF13
+ 512 0091 02       		.byte	0x2
+ 513 0092 8E02     		.2byte	0x28e
+ 514 0094 98000000 		.4byte	0x98
+ 515 0098 05       		.uleb128 0x5
+ 516 0099 6B000000 		.4byte	0x6b
+ 517 009d 02       		.uleb128 0x2
+ 518 009e 08       		.byte	0x8
+ 519 009f 04       		.byte	0x4
+ 520 00a0 72010000 		.4byte	.LASF14
+ 521 00a4 02       		.uleb128 0x2
+ 522 00a5 04       		.byte	0x4
+ 523 00a6 07       		.byte	0x7
+ 524 00a7 16020000 		.4byte	.LASF15
+ 525 00ab 06       		.uleb128 0x6
+ 526 00ac 36010000 		.4byte	.LASF18
+ 527 00b0 01       		.byte	0x1
+ 528 00b1 29       		.byte	0x29
+ 529 00b2 00000000 		.4byte	.LFB2
+ 530 00b6 4C000000 		.4byte	.LFE2-.LFB2
+ 531 00ba 01       		.uleb128 0x1
+ 532 00bb 9C       		.byte	0x9c
+ 533 00bc CF000000 		.4byte	0xcf
+ 534 00c0 07       		.uleb128 0x7
+ 535 00c1 1B000000 		.4byte	.LASF20
+ 536 00c5 01       		.byte	0x1
+ 537 00c6 2B       		.byte	0x2b
+ 538 00c7 6B000000 		.4byte	0x6b
+ 539 00cb 02       		.uleb128 0x2
+ 540 00cc 91       		.byte	0x91
+ 541 00cd 6F       		.sleb128 -17
+ 542 00ce 00       		.byte	0
+ 543 00cf 08       		.uleb128 0x8
+ 544 00d0 1F020000 		.4byte	.LASF16
+ 545 00d4 01       		.byte	0x1
+ 546 00d5 45       		.byte	0x45
+ 547 00d6 00000000 		.4byte	.LFB3
+ 548 00da 28000000 		.4byte	.LFE3-.LFB3
+ 549 00de 01       		.uleb128 0x1
+ 550 00df 9C       		.byte	0x9c
+ 551 00e0 09       		.uleb128 0x9
+ 552 00e1 2C000000 		.4byte	.LASF17
+ 553 00e5 01       		.byte	0x1
+ 554 00e6 9E       		.byte	0x9e
+ 555 00e7 00000000 		.4byte	.LFB4
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 19
+
+
+ 556 00eb 24000000 		.4byte	.LFE4-.LFB4
+ 557 00ef 01       		.uleb128 0x1
+ 558 00f0 9C       		.byte	0x9c
+ 559 00f1 06       		.uleb128 0x6
+ 560 00f2 F6000000 		.4byte	.LASF19
+ 561 00f6 01       		.byte	0x1
+ 562 00f7 B9       		.byte	0xb9
+ 563 00f8 00000000 		.4byte	.LFB5
+ 564 00fc 5C000000 		.4byte	.LFE5-.LFB5
+ 565 0100 01       		.uleb128 0x1
+ 566 0101 9C       		.byte	0x9c
+ 567 0102 15010000 		.4byte	0x115
+ 568 0106 07       		.uleb128 0x7
+ 569 0107 1B000000 		.4byte	.LASF20
+ 570 010b 01       		.byte	0x1
+ 571 010c BB       		.byte	0xbb
+ 572 010d 6B000000 		.4byte	0x6b
+ 573 0111 02       		.uleb128 0x2
+ 574 0112 91       		.byte	0x91
+ 575 0113 6F       		.sleb128 -17
+ 576 0114 00       		.byte	0
+ 577 0115 0A       		.uleb128 0xa
+ 578 0116 9F000000 		.4byte	.LASF21
+ 579 011a 01       		.byte	0x1
+ 580 011b 8301     		.2byte	0x183
+ 581 011d 00000000 		.4byte	.LFB6
+ 582 0121 4C000000 		.4byte	.LFE6-.LFB6
+ 583 0125 01       		.uleb128 0x1
+ 584 0126 9C       		.byte	0x9c
+ 585 0127 3B010000 		.4byte	0x13b
+ 586 012b 0B       		.uleb128 0xb
+ 587 012c 1B000000 		.4byte	.LASF20
+ 588 0130 01       		.byte	0x1
+ 589 0131 8501     		.2byte	0x185
+ 590 0133 6B000000 		.4byte	0x6b
+ 591 0137 02       		.uleb128 0x2
+ 592 0138 91       		.byte	0x91
+ 593 0139 6F       		.sleb128 -17
+ 594 013a 00       		.byte	0
+ 595 013b 0A       		.uleb128 0xa
+ 596 013c 62010000 		.4byte	.LASF22
+ 597 0140 01       		.byte	0x1
+ 598 0141 A301     		.2byte	0x1a3
+ 599 0143 00000000 		.4byte	.LFB7
+ 600 0147 4C000000 		.4byte	.LFE7-.LFB7
+ 601 014b 01       		.uleb128 0x1
+ 602 014c 9C       		.byte	0x9c
+ 603 014d 61010000 		.4byte	0x161
+ 604 0151 0B       		.uleb128 0xb
+ 605 0152 1B000000 		.4byte	.LASF20
+ 606 0156 01       		.byte	0x1
+ 607 0157 A501     		.2byte	0x1a5
+ 608 0159 6B000000 		.4byte	0x6b
+ 609 015d 02       		.uleb128 0x2
+ 610 015e 91       		.byte	0x91
+ 611 015f 6F       		.sleb128 -17
+ 612 0160 00       		.byte	0
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 20
+
+
+ 613 0161 0A       		.uleb128 0xa
+ 614 0162 24010000 		.4byte	.LASF23
+ 615 0166 01       		.byte	0x1
+ 616 0167 C401     		.2byte	0x1c4
+ 617 0169 00000000 		.4byte	.LFB8
+ 618 016d 48000000 		.4byte	.LFE8-.LFB8
+ 619 0171 01       		.uleb128 0x1
+ 620 0172 9C       		.byte	0x9c
+ 621 0173 87010000 		.4byte	0x187
+ 622 0177 0B       		.uleb128 0xb
+ 623 0178 1B000000 		.4byte	.LASF20
+ 624 017c 01       		.byte	0x1
+ 625 017d C601     		.2byte	0x1c6
+ 626 017f 6B000000 		.4byte	0x6b
+ 627 0183 02       		.uleb128 0x2
+ 628 0184 91       		.byte	0x91
+ 629 0185 6F       		.sleb128 -17
+ 630 0186 00       		.byte	0
+ 631 0187 0C       		.uleb128 0xc
+ 632 0188 91000000 		.4byte	.LASF27
+ 633 018c 01       		.byte	0x1
+ 634 018d 15       		.byte	0x15
+ 635 018e 6B000000 		.4byte	0x6b
+ 636 0192 05       		.uleb128 0x5
+ 637 0193 03       		.byte	0x3
+ 638 0194 00000000 		.4byte	I2S_1_initVar
+ 639 0198 00       		.byte	0
+ 640              		.section	.debug_abbrev,"",%progbits
+ 641              	.Ldebug_abbrev0:
+ 642 0000 01       		.uleb128 0x1
+ 643 0001 11       		.uleb128 0x11
+ 644 0002 01       		.byte	0x1
+ 645 0003 25       		.uleb128 0x25
+ 646 0004 0E       		.uleb128 0xe
+ 647 0005 13       		.uleb128 0x13
+ 648 0006 0B       		.uleb128 0xb
+ 649 0007 03       		.uleb128 0x3
+ 650 0008 0E       		.uleb128 0xe
+ 651 0009 1B       		.uleb128 0x1b
+ 652 000a 0E       		.uleb128 0xe
+ 653 000b 55       		.uleb128 0x55
+ 654 000c 17       		.uleb128 0x17
+ 655 000d 11       		.uleb128 0x11
+ 656 000e 01       		.uleb128 0x1
+ 657 000f 10       		.uleb128 0x10
+ 658 0010 17       		.uleb128 0x17
+ 659 0011 00       		.byte	0
+ 660 0012 00       		.byte	0
+ 661 0013 02       		.uleb128 0x2
+ 662 0014 24       		.uleb128 0x24
+ 663 0015 00       		.byte	0
+ 664 0016 0B       		.uleb128 0xb
+ 665 0017 0B       		.uleb128 0xb
+ 666 0018 3E       		.uleb128 0x3e
+ 667 0019 0B       		.uleb128 0xb
+ 668 001a 03       		.uleb128 0x3
+ 669 001b 0E       		.uleb128 0xe
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 21
+
+
+ 670 001c 00       		.byte	0
+ 671 001d 00       		.byte	0
+ 672 001e 03       		.uleb128 0x3
+ 673 001f 24       		.uleb128 0x24
+ 674 0020 00       		.byte	0
+ 675 0021 0B       		.uleb128 0xb
+ 676 0022 0B       		.uleb128 0xb
+ 677 0023 3E       		.uleb128 0x3e
+ 678 0024 0B       		.uleb128 0xb
+ 679 0025 03       		.uleb128 0x3
+ 680 0026 08       		.uleb128 0x8
+ 681 0027 00       		.byte	0
+ 682 0028 00       		.byte	0
+ 683 0029 04       		.uleb128 0x4
+ 684 002a 16       		.uleb128 0x16
+ 685 002b 00       		.byte	0
+ 686 002c 03       		.uleb128 0x3
+ 687 002d 0E       		.uleb128 0xe
+ 688 002e 3A       		.uleb128 0x3a
+ 689 002f 0B       		.uleb128 0xb
+ 690 0030 3B       		.uleb128 0x3b
+ 691 0031 05       		.uleb128 0x5
+ 692 0032 49       		.uleb128 0x49
+ 693 0033 13       		.uleb128 0x13
+ 694 0034 00       		.byte	0
+ 695 0035 00       		.byte	0
+ 696 0036 05       		.uleb128 0x5
+ 697 0037 35       		.uleb128 0x35
+ 698 0038 00       		.byte	0
+ 699 0039 49       		.uleb128 0x49
+ 700 003a 13       		.uleb128 0x13
+ 701 003b 00       		.byte	0
+ 702 003c 00       		.byte	0
+ 703 003d 06       		.uleb128 0x6
+ 704 003e 2E       		.uleb128 0x2e
+ 705 003f 01       		.byte	0x1
+ 706 0040 3F       		.uleb128 0x3f
+ 707 0041 19       		.uleb128 0x19
+ 708 0042 03       		.uleb128 0x3
+ 709 0043 0E       		.uleb128 0xe
+ 710 0044 3A       		.uleb128 0x3a
+ 711 0045 0B       		.uleb128 0xb
+ 712 0046 3B       		.uleb128 0x3b
+ 713 0047 0B       		.uleb128 0xb
+ 714 0048 27       		.uleb128 0x27
+ 715 0049 19       		.uleb128 0x19
+ 716 004a 11       		.uleb128 0x11
+ 717 004b 01       		.uleb128 0x1
+ 718 004c 12       		.uleb128 0x12
+ 719 004d 06       		.uleb128 0x6
+ 720 004e 40       		.uleb128 0x40
+ 721 004f 18       		.uleb128 0x18
+ 722 0050 9642     		.uleb128 0x2116
+ 723 0052 19       		.uleb128 0x19
+ 724 0053 01       		.uleb128 0x1
+ 725 0054 13       		.uleb128 0x13
+ 726 0055 00       		.byte	0
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 22
+
+
+ 727 0056 00       		.byte	0
+ 728 0057 07       		.uleb128 0x7
+ 729 0058 34       		.uleb128 0x34
+ 730 0059 00       		.byte	0
+ 731 005a 03       		.uleb128 0x3
+ 732 005b 0E       		.uleb128 0xe
+ 733 005c 3A       		.uleb128 0x3a
+ 734 005d 0B       		.uleb128 0xb
+ 735 005e 3B       		.uleb128 0x3b
+ 736 005f 0B       		.uleb128 0xb
+ 737 0060 49       		.uleb128 0x49
+ 738 0061 13       		.uleb128 0x13
+ 739 0062 02       		.uleb128 0x2
+ 740 0063 18       		.uleb128 0x18
+ 741 0064 00       		.byte	0
+ 742 0065 00       		.byte	0
+ 743 0066 08       		.uleb128 0x8
+ 744 0067 2E       		.uleb128 0x2e
+ 745 0068 00       		.byte	0
+ 746 0069 3F       		.uleb128 0x3f
+ 747 006a 19       		.uleb128 0x19
+ 748 006b 03       		.uleb128 0x3
+ 749 006c 0E       		.uleb128 0xe
+ 750 006d 3A       		.uleb128 0x3a
+ 751 006e 0B       		.uleb128 0xb
+ 752 006f 3B       		.uleb128 0x3b
+ 753 0070 0B       		.uleb128 0xb
+ 754 0071 27       		.uleb128 0x27
+ 755 0072 19       		.uleb128 0x19
+ 756 0073 11       		.uleb128 0x11
+ 757 0074 01       		.uleb128 0x1
+ 758 0075 12       		.uleb128 0x12
+ 759 0076 06       		.uleb128 0x6
+ 760 0077 40       		.uleb128 0x40
+ 761 0078 18       		.uleb128 0x18
+ 762 0079 9742     		.uleb128 0x2117
+ 763 007b 19       		.uleb128 0x19
+ 764 007c 00       		.byte	0
+ 765 007d 00       		.byte	0
+ 766 007e 09       		.uleb128 0x9
+ 767 007f 2E       		.uleb128 0x2e
+ 768 0080 00       		.byte	0
+ 769 0081 3F       		.uleb128 0x3f
+ 770 0082 19       		.uleb128 0x19
+ 771 0083 03       		.uleb128 0x3
+ 772 0084 0E       		.uleb128 0xe
+ 773 0085 3A       		.uleb128 0x3a
+ 774 0086 0B       		.uleb128 0xb
+ 775 0087 3B       		.uleb128 0x3b
+ 776 0088 0B       		.uleb128 0xb
+ 777 0089 27       		.uleb128 0x27
+ 778 008a 19       		.uleb128 0x19
+ 779 008b 11       		.uleb128 0x11
+ 780 008c 01       		.uleb128 0x1
+ 781 008d 12       		.uleb128 0x12
+ 782 008e 06       		.uleb128 0x6
+ 783 008f 40       		.uleb128 0x40
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 23
+
+
+ 784 0090 18       		.uleb128 0x18
+ 785 0091 9642     		.uleb128 0x2116
+ 786 0093 19       		.uleb128 0x19
+ 787 0094 00       		.byte	0
+ 788 0095 00       		.byte	0
+ 789 0096 0A       		.uleb128 0xa
+ 790 0097 2E       		.uleb128 0x2e
+ 791 0098 01       		.byte	0x1
+ 792 0099 3F       		.uleb128 0x3f
+ 793 009a 19       		.uleb128 0x19
+ 794 009b 03       		.uleb128 0x3
+ 795 009c 0E       		.uleb128 0xe
+ 796 009d 3A       		.uleb128 0x3a
+ 797 009e 0B       		.uleb128 0xb
+ 798 009f 3B       		.uleb128 0x3b
+ 799 00a0 05       		.uleb128 0x5
+ 800 00a1 27       		.uleb128 0x27
+ 801 00a2 19       		.uleb128 0x19
+ 802 00a3 11       		.uleb128 0x11
+ 803 00a4 01       		.uleb128 0x1
+ 804 00a5 12       		.uleb128 0x12
+ 805 00a6 06       		.uleb128 0x6
+ 806 00a7 40       		.uleb128 0x40
+ 807 00a8 18       		.uleb128 0x18
+ 808 00a9 9642     		.uleb128 0x2116
+ 809 00ab 19       		.uleb128 0x19
+ 810 00ac 01       		.uleb128 0x1
+ 811 00ad 13       		.uleb128 0x13
+ 812 00ae 00       		.byte	0
+ 813 00af 00       		.byte	0
+ 814 00b0 0B       		.uleb128 0xb
+ 815 00b1 34       		.uleb128 0x34
+ 816 00b2 00       		.byte	0
+ 817 00b3 03       		.uleb128 0x3
+ 818 00b4 0E       		.uleb128 0xe
+ 819 00b5 3A       		.uleb128 0x3a
+ 820 00b6 0B       		.uleb128 0xb
+ 821 00b7 3B       		.uleb128 0x3b
+ 822 00b8 05       		.uleb128 0x5
+ 823 00b9 49       		.uleb128 0x49
+ 824 00ba 13       		.uleb128 0x13
+ 825 00bb 02       		.uleb128 0x2
+ 826 00bc 18       		.uleb128 0x18
+ 827 00bd 00       		.byte	0
+ 828 00be 00       		.byte	0
+ 829 00bf 0C       		.uleb128 0xc
+ 830 00c0 34       		.uleb128 0x34
+ 831 00c1 00       		.byte	0
+ 832 00c2 03       		.uleb128 0x3
+ 833 00c3 0E       		.uleb128 0xe
+ 834 00c4 3A       		.uleb128 0x3a
+ 835 00c5 0B       		.uleb128 0xb
+ 836 00c6 3B       		.uleb128 0x3b
+ 837 00c7 0B       		.uleb128 0xb
+ 838 00c8 49       		.uleb128 0x49
+ 839 00c9 13       		.uleb128 0x13
+ 840 00ca 3F       		.uleb128 0x3f
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 24
+
+
+ 841 00cb 19       		.uleb128 0x19
+ 842 00cc 02       		.uleb128 0x2
+ 843 00cd 18       		.uleb128 0x18
+ 844 00ce 00       		.byte	0
+ 845 00cf 00       		.byte	0
+ 846 00d0 00       		.byte	0
+ 847              		.section	.debug_aranges,"",%progbits
+ 848 0000 4C000000 		.4byte	0x4c
+ 849 0004 0200     		.2byte	0x2
+ 850 0006 00000000 		.4byte	.Ldebug_info0
+ 851 000a 04       		.byte	0x4
+ 852 000b 00       		.byte	0
+ 853 000c 0000     		.2byte	0
+ 854 000e 0000     		.2byte	0
+ 855 0010 00000000 		.4byte	.LFB2
+ 856 0014 4C000000 		.4byte	.LFE2-.LFB2
+ 857 0018 00000000 		.4byte	.LFB3
+ 858 001c 28000000 		.4byte	.LFE3-.LFB3
+ 859 0020 00000000 		.4byte	.LFB4
+ 860 0024 24000000 		.4byte	.LFE4-.LFB4
+ 861 0028 00000000 		.4byte	.LFB5
+ 862 002c 5C000000 		.4byte	.LFE5-.LFB5
+ 863 0030 00000000 		.4byte	.LFB6
+ 864 0034 4C000000 		.4byte	.LFE6-.LFB6
+ 865 0038 00000000 		.4byte	.LFB7
+ 866 003c 4C000000 		.4byte	.LFE7-.LFB7
+ 867 0040 00000000 		.4byte	.LFB8
+ 868 0044 48000000 		.4byte	.LFE8-.LFB8
+ 869 0048 00000000 		.4byte	0
+ 870 004c 00000000 		.4byte	0
+ 871              		.section	.debug_ranges,"",%progbits
+ 872              	.Ldebug_ranges0:
+ 873 0000 00000000 		.4byte	.LFB2
+ 874 0004 4C000000 		.4byte	.LFE2
+ 875 0008 00000000 		.4byte	.LFB3
+ 876 000c 28000000 		.4byte	.LFE3
+ 877 0010 00000000 		.4byte	.LFB4
+ 878 0014 24000000 		.4byte	.LFE4
+ 879 0018 00000000 		.4byte	.LFB5
+ 880 001c 5C000000 		.4byte	.LFE5
+ 881 0020 00000000 		.4byte	.LFB6
+ 882 0024 4C000000 		.4byte	.LFE6
+ 883 0028 00000000 		.4byte	.LFB7
+ 884 002c 4C000000 		.4byte	.LFE7
+ 885 0030 00000000 		.4byte	.LFB8
+ 886 0034 48000000 		.4byte	.LFE8
+ 887 0038 00000000 		.4byte	0
+ 888 003c 00000000 		.4byte	0
+ 889              		.section	.debug_line,"",%progbits
+ 890              	.Ldebug_line0:
+ 891 0000 DF000000 		.section	.debug_str,"MS",%progbits,1
+ 891      02004200 
+ 891      00000201 
+ 891      FB0E0D00 
+ 891      01010101 
+ 892              	.LASF6:
+ 893 0000 6C6F6E67 		.ascii	"long long int\000"
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 25
+
+
+ 893      206C6F6E 
+ 893      6720696E 
+ 893      7400
+ 894              	.LASF8:
+ 895 000e 756E7369 		.ascii	"unsigned int\000"
+ 895      676E6564 
+ 895      20696E74 
+ 895      00
+ 896              	.LASF20:
+ 897 001b 656E6162 		.ascii	"enableInterrupts\000"
+ 897      6C65496E 
+ 897      74657272 
+ 897      75707473 
+ 897      00
+ 898              	.LASF17:
+ 899 002c 4932535F 		.ascii	"I2S_1_Start\000"
+ 899      315F5374 
+ 899      61727400 
+ 900              	.LASF13:
+ 901 0038 72656738 		.ascii	"reg8\000"
+ 901      00
+ 902              	.LASF12:
+ 903 003d 75696E74 		.ascii	"uint8\000"
+ 903      3800
+ 904              	.LASF5:
+ 905 0043 6C6F6E67 		.ascii	"long unsigned int\000"
+ 905      20756E73 
+ 905      69676E65 
+ 905      6420696E 
+ 905      7400
+ 906              	.LASF7:
+ 907 0055 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 907      206C6F6E 
+ 907      6720756E 
+ 907      7369676E 
+ 907      65642069 
+ 908              	.LASF25:
+ 909 006c 47656E65 		.ascii	"Generated_Source\\PSoC4\\I2S_1.c\000"
+ 909      72617465 
+ 909      645F536F 
+ 909      75726365 
+ 909      5C50536F 
+ 910              	.LASF9:
+ 911 008b 666C6F61 		.ascii	"float\000"
+ 911      7400
+ 912              	.LASF27:
+ 913 0091 4932535F 		.ascii	"I2S_1_initVar\000"
+ 913      315F696E 
+ 913      69745661 
+ 913      7200
+ 914              	.LASF21:
+ 915 009f 4932535F 		.ascii	"I2S_1_EnableRx\000"
+ 915      315F456E 
+ 915      61626C65 
+ 915      527800
+ 916              	.LASF26:
+ 917 00ae 433A5C55 		.ascii	"C:\\Users\\Phyllis Byrom\\Documents\\PSoC Creator\\"
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 26
+
+
+ 917      73657273 
+ 917      5C506879 
+ 917      6C6C6973 
+ 917      20427972 
+ 918 00dc 4769742D 		.ascii	"Git-test1\\Design01G.cydsn\000"
+ 918      74657374 
+ 918      315C4465 
+ 918      7369676E 
+ 918      3031472E 
+ 919              	.LASF19:
+ 920 00f6 4932535F 		.ascii	"I2S_1_Stop\000"
+ 920      315F5374 
+ 920      6F7000
+ 921              	.LASF1:
+ 922 0101 756E7369 		.ascii	"unsigned char\000"
+ 922      676E6564 
+ 922      20636861 
+ 922      7200
+ 923              	.LASF11:
+ 924 010f 63686172 		.ascii	"char\000"
+ 924      00
+ 925              	.LASF4:
+ 926 0114 6C6F6E67 		.ascii	"long int\000"
+ 926      20696E74 
+ 926      00
+ 927              	.LASF10:
+ 928 011d 646F7562 		.ascii	"double\000"
+ 928      6C6500
+ 929              	.LASF23:
+ 930 0124 4932535F 		.ascii	"I2S_1_ClearRxFIFO\000"
+ 930      315F436C 
+ 930      65617252 
+ 930      78464946 
+ 930      4F00
+ 931              	.LASF18:
+ 932 0136 4932535F 		.ascii	"I2S_1_Enable\000"
+ 932      315F456E 
+ 932      61626C65 
+ 932      00
+ 933              	.LASF3:
+ 934 0143 73686F72 		.ascii	"short unsigned int\000"
+ 934      7420756E 
+ 934      7369676E 
+ 934      65642069 
+ 934      6E7400
+ 935              	.LASF0:
+ 936 0156 7369676E 		.ascii	"signed char\000"
+ 936      65642063 
+ 936      68617200 
+ 937              	.LASF22:
+ 938 0162 4932535F 		.ascii	"I2S_1_DisableRx\000"
+ 938      315F4469 
+ 938      7361626C 
+ 938      65527800 
+ 939              	.LASF14:
+ 940 0172 6C6F6E67 		.ascii	"long double\000"
+ 940      20646F75 
+ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccOhvxTd.s 			page 27
+
+
+ 940      626C6500 
+ 941              	.LASF2:
+ 942 017e 73686F72 		.ascii	"short int\000"
+ 942      7420696E 
+ 942      7400
+ 943              	.LASF24:
+ 944 0188 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 944      43313120 
+ 944      352E342E 
+ 944      31203230 
+ 944      31363036 
+ 945 01bb 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 945      20726576 
+ 945      6973696F 
+ 945      6E203233 
+ 945      37373135 
+ 946 01ee 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 946      66756E63 
+ 946      74696F6E 
+ 946      2D736563 
+ 946      74696F6E 
+ 947              	.LASF15:
+ 948 0216 73697A65 		.ascii	"sizetype\000"
+ 948      74797065 
+ 948      00
+ 949              	.LASF16:
+ 950 021f 4932535F 		.ascii	"I2S_1_Init\000"
+ 950      315F496E 
+ 950      697400
+ 951              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
