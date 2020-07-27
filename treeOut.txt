@@ -1,0 +1,13 @@
+.
+└── Design01G.cydsn
+    ├── codegentemp
+    │   └── lcpsoc3
+    ├── CortexM0
+    │   └── ARM_GCC_541
+    │       └── Debug
+    ├── Export
+    ├── Generated_Source
+    │   └── PSoC4
+    └── TopDesign
+
+10 directories
