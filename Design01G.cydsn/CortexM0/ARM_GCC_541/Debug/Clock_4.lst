@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccY6fAhF.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
   28:Generated_Source\PSoC4/Clock_4.c **** * Summary:
   29:Generated_Source\PSoC4/Clock_4.c **** *  Starts the clock, aligned to the specified running clock.
   30:Generated_Source\PSoC4/Clock_4.c **** *
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 2
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccY6fAhF.s 			page 2
 
 
   31:Generated_Source\PSoC4/Clock_4.c **** * Parameters:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
   60 0020 BD46     		mov	sp, r7
   61 0022 02B0     		add	sp, sp, #8
   62              		@ sp needed
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 3
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccY6fAhF.s 			page 3
 
 
   63 0024 80BD     		pop	{r7, pc}
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
   89:Generated_Source\PSoC4/Clock_4.c **** *  None
   90:Generated_Source\PSoC4/Clock_4.c **** *
   91:Generated_Source\PSoC4/Clock_4.c **** * Returns:
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 4
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccY6fAhF.s 			page 4
 
 
   92:Generated_Source\PSoC4/Clock_4.c **** *  None
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  110 001c 00000140 		.word	1073807360
  111 0020 42000040 		.word	1073741890
  112              		.cfi_endproc
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 5
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccY6fAhF.s 			page 5
 
 
  113              	.LFE1:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  142:Generated_Source\PSoC4/Clock_4.c ****     maskVal = Clock_4_DIV_REG & 
  141              		.loc 1 142 0
  142 0012 0C4B     		ldr	r3, .L10
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 6
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccY6fAhF.s 			page 6
 
 
  143 0014 1B68     		ldr	r3, [r3]
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  179              		.size	Clock_4_SetFractionalDividerRegister, .-Clock_4_SetFractionalDividerRegister
  180              		.section	.text.Clock_4_GetDividerRegister,"ax",%progbits
  181              		.align	2
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 7
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccY6fAhF.s 			page 7
 
 
  182              		.global	Clock_4_GetDividerRegister
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  213 0016 C046     		.align	2
  214              	.L14:
  215 0018 08030140 		.word	1073808136
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 8
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccY6fAhF.s 			page 8
 
 
  216              		.cfi_endproc
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  243 000a 80BD     		pop	{r7, pc}
  244              		.cfi_endproc
  245              	.LFE4:
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 9
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccY6fAhF.s 			page 9
 
 
  246              		.size	Clock_4_GetFractionalDividerRegister, .-Clock_4_GetFractionalDividerRegister
@@ -492,45 +492,45 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  254 0006 00000000 		.4byte	.Ldebug_abbrev0
  255 000a 04       		.byte	0x4
  256 000b 01       		.uleb128 0x1
- 257 000c 62000000 		.4byte	.LASF25
+ 257 000c A1000000 		.4byte	.LASF25
  258 0010 0C       		.byte	0xc
- 259 0011 17020000 		.4byte	.LASF26
- 260 0015 65010000 		.4byte	.LASF27
+ 259 0011 0E020000 		.4byte	.LASF26
+ 260 0015 06000000 		.4byte	.LASF27
  261 0019 00000000 		.4byte	.Ldebug_ranges0+0
  262 001d 00000000 		.4byte	0
  263 0021 00000000 		.4byte	.Ldebug_line0
  264 0025 02       		.uleb128 0x2
  265 0026 01       		.byte	0x1
  266 0027 06       		.byte	0x6
- 267 0028 0B020000 		.4byte	.LASF0
+ 267 0028 02020000 		.4byte	.LASF0
  268 002c 02       		.uleb128 0x2
  269 002d 01       		.byte	0x1
  270 002e 08       		.byte	0x8
- 271 002f 14000000 		.4byte	.LASF1
+ 271 002f 53000000 		.4byte	.LASF1
  272 0033 02       		.uleb128 0x2
  273 0034 02       		.byte	0x2
  274 0035 05       		.byte	0x5
- 275 0036 F2010000 		.4byte	.LASF2
+ 275 0036 E9010000 		.4byte	.LASF2
  276 003a 02       		.uleb128 0x2
  277 003b 02       		.byte	0x2
  278 003c 07       		.byte	0x7
- 279 003d 4F000000 		.4byte	.LASF3
+ 279 003d 8E000000 		.4byte	.LASF3
  280 0041 02       		.uleb128 0x2
  281 0042 04       		.byte	0x4
  282 0043 05       		.byte	0x5
- 283 0044 02020000 		.4byte	.LASF4
+ 283 0044 F9010000 		.4byte	.LASF4
  284 0048 02       		.uleb128 0x2
  285 0049 04       		.byte	0x4
  286 004a 07       		.byte	0x7
- 287 004b 3D000000 		.4byte	.LASF5
+ 287 004b 7C000000 		.4byte	.LASF5
  288 004f 02       		.uleb128 0x2
  289 0050 08       		.byte	0x8
  290 0051 05       		.byte	0x5
- 291 0052 AD010000 		.4byte	.LASF6
+ 291 0052 A4010000 		.4byte	.LASF6
  292 0056 02       		.uleb128 0x2
  293 0057 08       		.byte	0x8
  294 0058 07       		.byte	0x7
- 295 0059 4E010000 		.4byte	.LASF7
+ 295 0059 8D010000 		.4byte	.LASF7
  296 005d 03       		.uleb128 0x3
  297 005e 04       		.byte	0x4
  298 005f 05       		.byte	0x5
@@ -538,37 +538,37 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  300 0064 02       		.uleb128 0x2
  301 0065 04       		.byte	0x4
  302 0066 07       		.byte	0x7
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 10
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccY6fAhF.s 			page 10
 
 
- 303 0067 41010000 		.4byte	.LASF8
+ 303 0067 80010000 		.4byte	.LASF8
  304 006b 04       		.uleb128 0x4
- 305 006c FC010000 		.4byte	.LASF9
+ 305 006c F3010000 		.4byte	.LASF9
  306 0070 02       		.byte	0x2
  307 0071 E401     		.2byte	0x1e4
  308 0073 2C000000 		.4byte	0x2c
  309 0077 04       		.uleb128 0x4
- 310 0078 33010000 		.4byte	.LASF10
+ 310 0078 72010000 		.4byte	.LASF10
  311 007c 02       		.byte	0x2
  312 007d E501     		.2byte	0x1e5
  313 007f 3A000000 		.4byte	0x3a
  314 0083 04       		.uleb128 0x4
- 315 0084 3A010000 		.4byte	.LASF11
+ 315 0084 79010000 		.4byte	.LASF11
  316 0088 02       		.byte	0x2
  317 0089 E601     		.2byte	0x1e6
  318 008b 48000000 		.4byte	0x48
  319 008f 02       		.uleb128 0x2
  320 0090 04       		.byte	0x4
  321 0091 04       		.byte	0x4
- 322 0092 0E000000 		.4byte	.LASF12
+ 322 0092 4D000000 		.4byte	.LASF12
  323 0096 02       		.uleb128 0x2
  324 0097 08       		.byte	0x8
  325 0098 04       		.byte	0x4
- 326 0099 0B010000 		.4byte	.LASF13
+ 326 0099 4A010000 		.4byte	.LASF13
  327 009d 02       		.uleb128 0x2
  328 009e 01       		.byte	0x1
  329 009f 08       		.byte	0x8
- 330 00a0 C8010000 		.4byte	.LASF14
+ 330 00a0 BF010000 		.4byte	.LASF14
  331 00a4 04       		.uleb128 0x4
  332 00a5 00000000 		.4byte	.LASF15
  333 00a9 02       		.byte	0x2
@@ -577,7 +577,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  336 00b0 05       		.uleb128 0x5
  337 00b1 83000000 		.4byte	0x83
  338 00b5 06       		.uleb128 0x6
- 339 00b6 F0000000 		.4byte	.LASF16
+ 339 00b6 2F010000 		.4byte	.LASF16
  340 00ba 01       		.byte	0x1
  341 00bb 27       		.byte	0x27
  342 00bc 00000000 		.4byte	.LFB0
@@ -586,7 +586,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  345 00c5 9C       		.byte	0x9c
  346 00c6 D9000000 		.4byte	0xd9
  347 00ca 07       		.uleb128 0x7
- 348 00cb 19010000 		.4byte	.LASF18
+ 348 00cb 58010000 		.4byte	.LASF18
  349 00cf 01       		.byte	0x1
  350 00d0 27       		.byte	0x27
  351 00d1 83000000 		.4byte	0x83
@@ -595,10 +595,10 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  354 00d7 74       		.sleb128 -12
  355 00d8 00       		.byte	0
  356 00d9 08       		.uleb128 0x8
- 357 00da BB010000 		.4byte	.LASF28
+ 357 00da B2010000 		.4byte	.LASF28
  358 00de 01       		.byte	0x1
  359 00df 5F       		.byte	0x5f
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 11
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccY6fAhF.s 			page 11
 
 
  360 00e0 00000000 		.4byte	.LFB1
@@ -606,7 +606,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  362 00e8 01       		.uleb128 0x1
  363 00e9 9C       		.byte	0x9c
  364 00ea 06       		.uleb128 0x6
- 365 00eb 38020000 		.4byte	.LASF17
+ 365 00eb 2F020000 		.4byte	.LASF17
  366 00ef 01       		.byte	0x1
  367 00f0 86       		.byte	0x86
  368 00f1 00000000 		.4byte	.LFB2
@@ -615,7 +615,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  371 00fa 9C       		.byte	0x9c
  372 00fb 38010000 		.4byte	0x138
  373 00ff 07       		.uleb128 0x7
- 374 0100 00010000 		.4byte	.LASF19
+ 374 0100 3F010000 		.4byte	.LASF19
  375 0104 01       		.byte	0x1
  376 0105 86       		.byte	0x86
  377 0106 77000000 		.4byte	0x77
@@ -623,7 +623,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  379 010b 91       		.byte	0x91
  380 010c 6E       		.sleb128 -18
  381 010d 07       		.uleb128 0x7
- 382 010e 25010000 		.4byte	.LASF20
+ 382 010e 64010000 		.4byte	.LASF20
  383 0112 01       		.byte	0x1
  384 0113 86       		.byte	0x86
  385 0114 6B000000 		.4byte	0x6b
@@ -631,7 +631,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  387 0119 91       		.byte	0x91
  388 011a 6D       		.sleb128 -19
  389 011b 09       		.uleb128 0x9
- 390 011c 06000000 		.4byte	.LASF21
+ 390 011c 45000000 		.4byte	.LASF21
  391 0120 01       		.byte	0x1
  392 0121 88       		.byte	0x88
  393 0122 83000000 		.4byte	0x83
@@ -639,7 +639,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  395 0127 91       		.byte	0x91
  396 0128 74       		.sleb128 -12
  397 0129 09       		.uleb128 0x9
- 398 012a 12010000 		.4byte	.LASF22
+ 398 012a 51010000 		.4byte	.LASF22
  399 012e 01       		.byte	0x1
  400 012f 89       		.byte	0x89
  401 0130 83000000 		.4byte	0x83
@@ -648,7 +648,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  404 0136 70       		.sleb128 -16
  405 0137 00       		.byte	0
  406 0138 0A       		.uleb128 0xa
- 407 0139 22000000 		.4byte	.LASF23
+ 407 0139 61000000 		.4byte	.LASF23
  408 013d 01       		.byte	0x1
  409 013e B0       		.byte	0xb0
  410 013f 77000000 		.4byte	0x77
@@ -657,8 +657,8 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  413 014b 01       		.uleb128 0x1
  414 014c 9C       		.byte	0x9c
  415 014d 0A       		.uleb128 0xa
- 416 014e CD010000 		.4byte	.LASF24
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 12
+ 416 014e C4010000 		.4byte	.LASF24
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccY6fAhF.s 			page 12
 
 
  417 0152 01       		.byte	0x1
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  471 002c 03       		.uleb128 0x3
  472 002d 0E       		.uleb128 0xe
  473 002e 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 13
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccY6fAhF.s 			page 13
 
 
  474 002f 0B       		.uleb128 0xb
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  528 0066 08       		.uleb128 0x8
  529 0067 2E       		.uleb128 0x2e
  530 0068 00       		.byte	0
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 14
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccY6fAhF.s 			page 14
 
 
  531 0069 3F       		.uleb128 0x3f
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  585 00a0 40       		.uleb128 0x40
  586 00a1 18       		.uleb128 0x18
  587 00a2 9742     		.uleb128 0x2117
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 15
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccY6fAhF.s 			page 15
 
 
  588 00a4 19       		.uleb128 0x19
@@ -889,154 +889,154 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 1
  629              	.LASF15:
  630 0000 72656733 		.ascii	"reg32\000"
  630      3200
- 631              	.LASF21:
- 632 0006 6D61736B 		.ascii	"maskVal\000"
- 632      56616C00 
- 633              	.LASF12:
- 634 000e 666C6F61 		.ascii	"float\000"
- 634      7400
- 635              	.LASF1:
- 636 0014 756E7369 		.ascii	"unsigned char\000"
- 636      676E6564 
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 16
+ 631              	.LASF27:
+ 632 0006 433A5C55 		.ascii	"C:\\Users\\Mike\\Documents\\GitHub\\Git-test1-PSoC-"
+ 632      73657273 
+ 632      5C4D696B 
+ 632      655C446F 
+ 632      63756D65 
+ 633 0034 5C446573 		.ascii	"\\Design01G.cydsn\000"
+ 633      69676E30 
+ 633      31472E63 
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccY6fAhF.s 			page 16
 
 
- 636      20636861 
- 636      7200
- 637              	.LASF23:
- 638 0022 436C6F63 		.ascii	"Clock_4_GetDividerRegister\000"
- 638      6B5F345F 
- 638      47657444 
- 638      69766964 
- 638      65725265 
- 639              	.LASF5:
- 640 003d 6C6F6E67 		.ascii	"long unsigned int\000"
- 640      20756E73 
- 640      69676E65 
- 640      6420696E 
- 640      7400
- 641              	.LASF3:
- 642 004f 73686F72 		.ascii	"short unsigned int\000"
- 642      7420756E 
- 642      7369676E 
- 642      65642069 
- 642      6E7400
- 643              	.LASF25:
- 644 0062 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 644      43313120 
- 644      352E342E 
- 644      31203230 
- 644      31363036 
- 645 0095 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
- 645      20726576 
- 645      6973696F 
- 645      6E203233 
- 645      37373135 
- 646 00c8 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 646      66756E63 
- 646      74696F6E 
- 646      2D736563 
- 646      74696F6E 
- 647              	.LASF16:
- 648 00f0 436C6F63 		.ascii	"Clock_4_StartEx\000"
- 648      6B5F345F 
- 648      53746172 
- 648      74457800 
- 649              	.LASF19:
- 650 0100 636C6B44 		.ascii	"clkDivider\000"
- 650      69766964 
- 650      657200
- 651              	.LASF13:
- 652 010b 646F7562 		.ascii	"double\000"
- 652      6C6500
- 653              	.LASF22:
- 654 0112 72656756 		.ascii	"regVal\000"
- 654      616C00
- 655              	.LASF18:
- 656 0119 616C6967 		.ascii	"alignClkDiv\000"
- 656      6E436C6B 
- 656      44697600 
- 657              	.LASF20:
- 658 0125 636C6B46 		.ascii	"clkFractional\000"
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 17
+ 633      7964736E 
+ 633      00
+ 634              	.LASF21:
+ 635 0045 6D61736B 		.ascii	"maskVal\000"
+ 635      56616C00 
+ 636              	.LASF12:
+ 637 004d 666C6F61 		.ascii	"float\000"
+ 637      7400
+ 638              	.LASF1:
+ 639 0053 756E7369 		.ascii	"unsigned char\000"
+ 639      676E6564 
+ 639      20636861 
+ 639      7200
+ 640              	.LASF23:
+ 641 0061 436C6F63 		.ascii	"Clock_4_GetDividerRegister\000"
+ 641      6B5F345F 
+ 641      47657444 
+ 641      69766964 
+ 641      65725265 
+ 642              	.LASF5:
+ 643 007c 6C6F6E67 		.ascii	"long unsigned int\000"
+ 643      20756E73 
+ 643      69676E65 
+ 643      6420696E 
+ 643      7400
+ 644              	.LASF3:
+ 645 008e 73686F72 		.ascii	"short unsigned int\000"
+ 645      7420756E 
+ 645      7369676E 
+ 645      65642069 
+ 645      6E7400
+ 646              	.LASF25:
+ 647 00a1 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 647      43313120 
+ 647      352E342E 
+ 647      31203230 
+ 647      31363036 
+ 648 00d4 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 648      20726576 
+ 648      6973696F 
+ 648      6E203233 
+ 648      37373135 
+ 649 0107 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 649      66756E63 
+ 649      74696F6E 
+ 649      2D736563 
+ 649      74696F6E 
+ 650              	.LASF16:
+ 651 012f 436C6F63 		.ascii	"Clock_4_StartEx\000"
+ 651      6B5F345F 
+ 651      53746172 
+ 651      74457800 
+ 652              	.LASF19:
+ 653 013f 636C6B44 		.ascii	"clkDivider\000"
+ 653      69766964 
+ 653      657200
+ 654              	.LASF13:
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccY6fAhF.s 			page 17
 
 
- 658      72616374 
- 658      696F6E61 
- 658      6C00
- 659              	.LASF10:
- 660 0133 75696E74 		.ascii	"uint16\000"
- 660      313600
- 661              	.LASF11:
- 662 013a 75696E74 		.ascii	"uint32\000"
- 662      333200
- 663              	.LASF8:
- 664 0141 756E7369 		.ascii	"unsigned int\000"
- 664      676E6564 
- 664      20696E74 
- 664      00
- 665              	.LASF7:
- 666 014e 6C6F6E67 		.ascii	"long long unsigned int\000"
- 666      206C6F6E 
- 666      6720756E 
- 666      7369676E 
- 666      65642069 
- 667              	.LASF27:
- 668 0165 433A5C55 		.ascii	"C:\\Users\\Phyllis Byrom\\Documents\\PSoC Creator\\"
- 668      73657273 
- 668      5C506879 
- 668      6C6C6973 
- 668      20427972 
- 669 0193 4769742D 		.ascii	"Git-test1\\Design01G.cydsn\000"
- 669      74657374 
- 669      315C4465 
+ 655 014a 646F7562 		.ascii	"double\000"
+ 655      6C6500
+ 656              	.LASF22:
+ 657 0151 72656756 		.ascii	"regVal\000"
+ 657      616C00
+ 658              	.LASF18:
+ 659 0158 616C6967 		.ascii	"alignClkDiv\000"
+ 659      6E436C6B 
+ 659      44697600 
+ 660              	.LASF20:
+ 661 0164 636C6B46 		.ascii	"clkFractional\000"
+ 661      72616374 
+ 661      696F6E61 
+ 661      6C00
+ 662              	.LASF10:
+ 663 0172 75696E74 		.ascii	"uint16\000"
+ 663      313600
+ 664              	.LASF11:
+ 665 0179 75696E74 		.ascii	"uint32\000"
+ 665      333200
+ 666              	.LASF8:
+ 667 0180 756E7369 		.ascii	"unsigned int\000"
+ 667      676E6564 
+ 667      20696E74 
+ 667      00
+ 668              	.LASF7:
+ 669 018d 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 669      206C6F6E 
+ 669      6720756E 
  669      7369676E 
- 669      3031472E 
+ 669      65642069 
  670              	.LASF6:
- 671 01ad 6C6F6E67 		.ascii	"long long int\000"
+ 671 01a4 6C6F6E67 		.ascii	"long long int\000"
  671      206C6F6E 
  671      6720696E 
  671      7400
  672              	.LASF28:
- 673 01bb 436C6F63 		.ascii	"Clock_4_Stop\000"
+ 673 01b2 436C6F63 		.ascii	"Clock_4_Stop\000"
  673      6B5F345F 
  673      53746F70 
  673      00
  674              	.LASF14:
- 675 01c8 63686172 		.ascii	"char\000"
+ 675 01bf 63686172 		.ascii	"char\000"
  675      00
  676              	.LASF24:
- 677 01cd 436C6F63 		.ascii	"Clock_4_GetFractionalDividerRegister\000"
+ 677 01c4 436C6F63 		.ascii	"Clock_4_GetFractionalDividerRegister\000"
  677      6B5F345F 
  677      47657446 
  677      72616374 
  677      696F6E61 
  678              	.LASF2:
- 679 01f2 73686F72 		.ascii	"short int\000"
+ 679 01e9 73686F72 		.ascii	"short int\000"
  679      7420696E 
  679      7400
  680              	.LASF9:
- 681 01fc 75696E74 		.ascii	"uint8\000"
+ 681 01f3 75696E74 		.ascii	"uint8\000"
  681      3800
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\ccuL15EI.s 			page 18
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccY6fAhF.s 			page 18
 
 
  682              	.LASF4:
- 683 0202 6C6F6E67 		.ascii	"long int\000"
+ 683 01f9 6C6F6E67 		.ascii	"long int\000"
  683      20696E74 
  683      00
  684              	.LASF0:
- 685 020b 7369676E 		.ascii	"signed char\000"
+ 685 0202 7369676E 		.ascii	"signed char\000"
  685      65642063 
  685      68617200 
  686              	.LASF26:
- 687 0217 47656E65 		.ascii	"Generated_Source\\PSoC4\\Clock_4.c\000"
+ 687 020e 47656E65 		.ascii	"Generated_Source\\PSoC4\\Clock_4.c\000"
  687      72617465 
  687      645F536F 
  687      75726365 
  687      5C50536F 
  688              	.LASF17:
- 689 0238 436C6F63 		.ascii	"Clock_4_SetFractionalDividerRegister\000"
+ 689 022f 436C6F63 		.ascii	"Clock_4_SetFractionalDividerRegister\000"
  689      6B5F345F 
  689      53657446 
  689      72616374 

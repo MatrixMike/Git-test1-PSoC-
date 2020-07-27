@@ -1,6 +1,6 @@
 -- ======================================================================
 -- Design01G.ctl generated from Design01G
--- 07/26/2020 at 17:25
+-- 07/27/2020 at 17:47
 -- This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 -- ======================================================================
 

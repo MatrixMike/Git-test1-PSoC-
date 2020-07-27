@@ -1,6 +1,6 @@
--- Project:   C:\Users\Phyllis Byrom\Documents\PSoC Creator\Git-test1\Design01G.cydsn\Design01G.cyprj
--- Generated: 07/26/2020 17:25:51
--- PSoC Creator  4.2
+-- Project:   C:\Users\Mike\Documents\GitHub\Git-test1-PSoC-\Design01G.cydsn\Design01G.cyprj
+-- Generated: 07/27/2020 17:48:12
+-- PSoC Creator  4.3
 
 ENTITY Design01G IS
     PORT(

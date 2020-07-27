@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
   28:Generated_Source\PSoC4/SCB_1_SPI.c ****     const SCB_1_SPI_INIT_STRUCT SCB_1_configSpi =
   29:Generated_Source\PSoC4/SCB_1_SPI.c ****     {
   30:Generated_Source\PSoC4/SCB_1_SPI.c ****         SCB_1_SPI_MODE,
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 2
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 2
 
 
   31:Generated_Source\PSoC4/SCB_1_SPI.c ****         SCB_1_SPI_SUB_MODE,
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
   85:Generated_Source\PSoC4/SCB_1_SPI.c ****             SCB_1_SetPins(SCB_1_SCB_MODE_SPI, config->mode, SCB_1_DUMMY_PARAM);
   86:Generated_Source\PSoC4/SCB_1_SPI.c **** 
   87:Generated_Source\PSoC4/SCB_1_SPI.c ****             /* Store internal configuration */
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 3
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 3
 
 
   88:Generated_Source\PSoC4/SCB_1_SPI.c ****             SCB_1_scbMode       = (uint8) SCB_1_SCB_MODE_SPI;
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  142:Generated_Source\PSoC4/SCB_1_SPI.c ****             SCB_1_INTR_MASTER_MASK_REG = SCB_1_GET_SPI_INTR_MASTER_MASK(config->txInterruptMask);
  143:Generated_Source\PSoC4/SCB_1_SPI.c ****             SCB_1_INTR_RX_MASK_REG     = SCB_1_GET_SPI_INTR_RX_MASK(config->rxInterruptMask);
  144:Generated_Source\PSoC4/SCB_1_SPI.c ****             SCB_1_INTR_TX_MASK_REG     = SCB_1_GET_SPI_INTR_TX_MASK(config->txInterruptMask);
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 4
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 4
 
 
  145:Generated_Source\PSoC4/SCB_1_SPI.c ****             
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
   47 0010 184B     		ldr	r3, .L2+16
   48 0012 194A     		ldr	r2, .L2+20
   49 0014 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 5
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 5
 
 
  180:Generated_Source\PSoC4/SCB_1_SPI.c ****         SCB_1_RX_FIFO_CTRL_REG = SCB_1_SPI_DEFAULT_RX_FIFO_CTRL;
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
   84 0048 0022     		movs	r2, #0
   85 004a 1A60     		str	r2, [r3]
  200:Generated_Source\PSoC4/SCB_1_SPI.c **** 
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 6
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 6
 
 
  201:Generated_Source\PSoC4/SCB_1_SPI.c ****         /* Configure TX interrupt sources to restore. */
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  121              		.size	SCB_1_SpiInit, .-SCB_1_SpiInit
  122              		.section	.text.SCB_1_SpiPostEnable,"ax",%progbits
  123              		.align	2
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 7
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 7
 
 
  124              		.global	SCB_1_SpiPostEnable
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  258:Generated_Source\PSoC4/SCB_1_SPI.c ****                                        SCB_1_SS2_HSIOM_POS, SCB_1_SS2_HSIOM_SEL_SPI);
  259:Generated_Source\PSoC4/SCB_1_SPI.c ****     #endif /* (SCB_1_SS2_PIN) */
  260:Generated_Source\PSoC4/SCB_1_SPI.c **** 
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 8
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 8
 
 
  261:Generated_Source\PSoC4/SCB_1_SPI.c ****     #if (SCB_1_SS3_PIN)
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  299:Generated_Source\PSoC4/SCB_1_SPI.c **** 
  300:Generated_Source\PSoC4/SCB_1_SPI.c **** #endif /* (SCB_1_SCB_MODE_UNCONFIG_CONST_CFG) */
  301:Generated_Source\PSoC4/SCB_1_SPI.c **** 
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 9
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 9
 
 
  302:Generated_Source\PSoC4/SCB_1_SPI.c ****     /* Restore TX interrupt sources. */
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  319:Generated_Source\PSoC4/SCB_1_SPI.c **** 
  320:Generated_Source\PSoC4/SCB_1_SPI.c ****     if (SCB_1_CHECK_SPI_MASTER)
  321:Generated_Source\PSoC4/SCB_1_SPI.c ****     {
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 10
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 10
 
 
  322:Generated_Source\PSoC4/SCB_1_SPI.c ****     #if (SCB_1_CTS_SCLK_PIN)
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  376:Generated_Source\PSoC4/SCB_1_SPI.c **** #else
  377:Generated_Source\PSoC4/SCB_1_SPI.c **** 
  378:Generated_Source\PSoC4/SCB_1_SPI.c **** #if (SCB_1_SPI_MASTER_SCLK_PIN)
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 11
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 11
 
 
  379:Generated_Source\PSoC4/SCB_1_SPI.c ****     /* Set output pin state after block is disabled */
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  398:Generated_Source\PSoC4/SCB_1_SPI.c ****     SCB_1_ss1_m_Write(SCB_1_GET_SPI_SS1_INACTIVE);
  399:Generated_Source\PSoC4/SCB_1_SPI.c **** 
  400:Generated_Source\PSoC4/SCB_1_SPI.c ****     /* Set GPIO to drive output pin */
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 12
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 12
 
 
  401:Generated_Source\PSoC4/SCB_1_SPI.c ****     SCB_1_SET_HSIOM_SEL(SCB_1_SS1_M_HSIOM_REG, SCB_1_SS1_M_HSIOM_MASK,
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  250              		.cfi_endproc
  251              	.LFE4:
  252              		.size	SCB_1_SpiStop, .-SCB_1_SpiStop
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 13
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 13
 
 
  253              		.section	.text.SCB_1_SpiSetActiveSlaveSelect,"ax",%progbits
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  276 000a 1B68     		ldr	r3, [r3]
  277 000c FB60     		str	r3, [r7, #12]
  464:Generated_Source\PSoC4/SCB_1_SPI.c **** 
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 14
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 14
 
 
  465:Generated_Source\PSoC4/SCB_1_SPI.c ****         spiCtrl &= (uint32) ~SCB_1_SPI_CTRL_SLAVE_SELECT_MASK;
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  479:Generated_Source\PSoC4/SCB_1_SPI.c ****     *  The component should be in one of the following states to change the active
  480:Generated_Source\PSoC4/SCB_1_SPI.c ****     *  slave select signal source correctly:
  481:Generated_Source\PSoC4/SCB_1_SPI.c ****     *   - The component is disabled.
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 15
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 15
 
 
  482:Generated_Source\PSoC4/SCB_1_SPI.c ****     *   - The component has completed transfer.
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  347 0022 094B     		ldr	r3, .L17
  348 0024 084A     		ldr	r2, .L17
  349 0026 1168     		ldr	r1, [r2]
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 16
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 16
 
 
  350 0028 FA68     		ldr	r2, [r7, #12]
@@ -947,48 +947,48 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  386 0006 00000000 		.4byte	.Ldebug_abbrev0
  387 000a 04       		.byte	0x4
  388 000b 01       		.uleb128 0x1
- 389 000c C7000000 		.4byte	.LASF26
+ 389 000c 06010000 		.4byte	.LASF26
  390 0010 0C       		.byte	0xc
- 391 0011 55010000 		.4byte	.LASF27
- 392 0015 C8010000 		.4byte	.LASF28
+ 391 0011 94010000 		.4byte	.LASF27
+ 392 0015 32000000 		.4byte	.LASF28
  393 0019 00000000 		.4byte	.Ldebug_ranges0+0
  394 001d 00000000 		.4byte	0
  395 0021 00000000 		.4byte	.Ldebug_line0
  396 0025 02       		.uleb128 0x2
  397 0026 01       		.byte	0x1
  398 0027 06       		.byte	0x6
- 399 0028 53020000 		.4byte	.LASF0
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 17
+ 399 0028 4A020000 		.4byte	.LASF0
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 17
 
 
  400 002c 02       		.uleb128 0x2
  401 002d 01       		.byte	0x1
  402 002e 08       		.byte	0x8
- 403 002f 80000000 		.4byte	.LASF1
+ 403 002f BF000000 		.4byte	.LASF1
  404 0033 02       		.uleb128 0x2
  405 0034 02       		.byte	0x2
  406 0035 05       		.byte	0x5
- 407 0036 34020000 		.4byte	.LASF2
+ 407 0036 2B020000 		.4byte	.LASF2
  408 003a 02       		.uleb128 0x2
  409 003b 02       		.byte	0x2
  410 003c 07       		.byte	0x7
- 411 003d B4000000 		.4byte	.LASF3
+ 411 003d F3000000 		.4byte	.LASF3
  412 0041 02       		.uleb128 0x2
  413 0042 04       		.byte	0x4
  414 0043 05       		.byte	0x5
- 415 0044 3E020000 		.4byte	.LASF4
+ 415 0044 35020000 		.4byte	.LASF4
  416 0048 02       		.uleb128 0x2
  417 0049 04       		.byte	0x4
  418 004a 07       		.byte	0x7
- 419 004b A2000000 		.4byte	.LASF5
+ 419 004b E1000000 		.4byte	.LASF5
  420 004f 02       		.uleb128 0x2
  421 0050 08       		.byte	0x8
  422 0051 05       		.byte	0x5
- 423 0052 19020000 		.4byte	.LASF6
+ 423 0052 10020000 		.4byte	.LASF6
  424 0056 02       		.uleb128 0x2
  425 0057 08       		.byte	0x8
  426 0058 07       		.byte	0x7
- 427 0059 9A010000 		.4byte	.LASF7
+ 427 0059 D9010000 		.4byte	.LASF7
  428 005d 03       		.uleb128 0x3
  429 005e 04       		.byte	0x4
  430 005f 05       		.byte	0x5
@@ -996,32 +996,32 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  432 0064 02       		.uleb128 0x2
  433 0065 04       		.byte	0x4
  434 0066 07       		.byte	0x7
- 435 0067 8D010000 		.4byte	.LASF8
+ 435 0067 CC010000 		.4byte	.LASF8
  436 006b 04       		.uleb128 0x4
- 437 006c 7F010000 		.4byte	.LASF9
+ 437 006c BE010000 		.4byte	.LASF9
  438 0070 02       		.byte	0x2
  439 0071 E501     		.2byte	0x1e5
  440 0073 3A000000 		.4byte	0x3a
  441 0077 04       		.uleb128 0x4
- 442 0078 86010000 		.4byte	.LASF10
+ 442 0078 C5010000 		.4byte	.LASF10
  443 007c 02       		.byte	0x2
  444 007d E601     		.2byte	0x1e6
  445 007f 48000000 		.4byte	0x48
  446 0083 02       		.uleb128 0x2
  447 0084 04       		.byte	0x4
  448 0085 04       		.byte	0x4
- 449 0086 6C000000 		.4byte	.LASF11
+ 449 0086 AB000000 		.4byte	.LASF11
  450 008a 02       		.uleb128 0x2
  451 008b 08       		.byte	0x8
  452 008c 04       		.byte	0x4
- 453 008d 78010000 		.4byte	.LASF12
+ 453 008d B7010000 		.4byte	.LASF12
  454 0091 02       		.uleb128 0x2
  455 0092 01       		.byte	0x1
  456 0093 08       		.byte	0x8
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 18
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 18
 
 
- 457 0094 27020000 		.4byte	.LASF13
+ 457 0094 1E020000 		.4byte	.LASF13
  458 0098 04       		.uleb128 0x4
  459 0099 00000000 		.4byte	.LASF14
  460 009d 02       		.byte	0x2
@@ -1032,13 +1032,13 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  465 00a9 02       		.uleb128 0x2
  466 00aa 08       		.byte	0x8
  467 00ab 04       		.byte	0x4
- 468 00ac 47020000 		.4byte	.LASF15
+ 468 00ac 3E020000 		.4byte	.LASF15
  469 00b0 02       		.uleb128 0x2
  470 00b1 04       		.byte	0x4
  471 00b2 07       		.byte	0x7
- 472 00b3 10020000 		.4byte	.LASF16
+ 472 00b3 07020000 		.4byte	.LASF16
  473 00b7 06       		.uleb128 0x6
- 474 00b8 72000000 		.4byte	.LASF17
+ 474 00b8 B1000000 		.4byte	.LASF17
  475 00bc 01       		.byte	0x1
  476 00bd AC       		.byte	0xac
  477 00be 00000000 		.4byte	.LFB2
@@ -1046,7 +1046,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  479 00c6 01       		.uleb128 0x1
  480 00c7 9C       		.byte	0x9c
  481 00c8 07       		.uleb128 0x7
- 482 00c9 8E000000 		.4byte	.LASF18
+ 482 00c9 CD000000 		.4byte	.LASF18
  483 00cd 01       		.byte	0x1
  484 00ce E7       		.byte	0xe7
  485 00cf 00000000 		.4byte	.LFB3
@@ -1054,7 +1054,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  487 00d7 01       		.uleb128 0x1
  488 00d8 9C       		.byte	0x9c
  489 00d9 08       		.uleb128 0x8
- 490 00da B1010000 		.4byte	.LASF19
+ 490 00da F0010000 		.4byte	.LASF19
  491 00de 01       		.byte	0x1
  492 00df 3C01     		.2byte	0x13c
  493 00e1 00000000 		.4byte	.LFB4
@@ -1062,7 +1062,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  495 00e9 01       		.uleb128 0x1
  496 00ea 9C       		.byte	0x9c
  497 00eb 09       		.uleb128 0x9
- 498 00ec 43000000 		.4byte	.LASF20
+ 498 00ec 82000000 		.4byte	.LASF20
  499 00f0 01       		.byte	0x1
  500 00f1 CB01     		.2byte	0x1cb
  501 00f3 00000000 		.4byte	.LFB5
@@ -1078,11 +1078,11 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  511 010d 02       		.uleb128 0x2
  512 010e 91       		.byte	0x91
  513 010f 6C       		.sleb128 -20
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 19
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 19
 
 
  514 0110 0B       		.uleb128 0xb
- 515 0111 2C020000 		.4byte	.LASF24
+ 515 0111 23020000 		.4byte	.LASF24
  516 0115 01       		.byte	0x1
  517 0116 CD01     		.2byte	0x1cd
  518 0118 77000000 		.4byte	0x77
@@ -1108,7 +1108,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  538 0143 91       		.byte	0x91
  539 0144 6C       		.sleb128 -20
  540 0145 0A       		.uleb128 0xa
- 541 0146 BF010000 		.4byte	.LASF23
+ 541 0146 FE010000 		.4byte	.LASF23
  542 014a 01       		.byte	0x1
  543 014b F101     		.2byte	0x1f1
  544 014d 77000000 		.4byte	0x77
@@ -1116,7 +1116,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  546 0152 91       		.byte	0x91
  547 0153 68       		.sleb128 -24
  548 0154 0B       		.uleb128 0xb
- 549 0155 61000000 		.4byte	.LASF25
+ 549 0155 A0000000 		.4byte	.LASF25
  550 0159 01       		.byte	0x1
  551 015a F301     		.2byte	0x1f3
  552 015c 77000000 		.4byte	0x77
@@ -1125,7 +1125,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  555 0162 74       		.sleb128 -12
  556 0163 00       		.byte	0
  557 0164 0C       		.uleb128 0xc
- 558 0165 32000000 		.4byte	.LASF29
+ 558 0165 71000000 		.4byte	.LASF29
  559 0169 03       		.byte	0x3
  560 016a 5B       		.byte	0x5b
  561 016b 6B000000 		.4byte	0x6b
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  568 0003 25       		.uleb128 0x25
  569 0004 0E       		.uleb128 0xe
  570 0005 13       		.uleb128 0x13
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 20
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 20
 
 
  571 0006 0B       		.uleb128 0xb
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  625 003c 00       		.byte	0
  626 003d 06       		.uleb128 0x6
  627 003e 2E       		.uleb128 0x2e
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 21
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 21
 
 
  628 003f 00       		.byte	0
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  682 0077 05       		.uleb128 0x5
  683 0078 27       		.uleb128 0x27
  684 0079 19       		.uleb128 0x19
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 22
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 22
 
 
  685 007a 11       		.uleb128 0x11
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  739 00b2 0E       		.uleb128 0xe
  740 00b3 3A       		.uleb128 0x3a
  741 00b4 0B       		.uleb128 0xb
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 23
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 23
 
 
  742 00b5 3B       		.uleb128 0x3b
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  796 0018 00000000 		.4byte	.LFB5
  797 001c 3C000000 		.4byte	.LFE5
  798 0020 00000000 		.4byte	.LFB6
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 24
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 24
 
 
  799 0024 4C000000 		.4byte	.LFE6
@@ -1404,150 +1404,150 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 1
  810      69536574 
  810      536C6176 
  810      6553656C 
- 811              	.LASF29:
- 812 0032 5343425F 		.ascii	"SCB_1_IntrTxMask\000"
- 812      315F496E 
- 812      74725478 
- 812      4D61736B 
- 812      00
- 813              	.LASF20:
- 814 0043 5343425F 		.ascii	"SCB_1_SpiSetActiveSlaveSelect\000"
- 814      315F5370 
- 814      69536574 
- 814      41637469 
- 814      7665536C 
- 815              	.LASF25:
- 816 0061 7373506F 		.ascii	"ssPolarity\000"
- 816      6C617269 
- 816      747900
- 817              	.LASF11:
- 818 006c 666C6F61 		.ascii	"float\000"
- 818      7400
- 819              	.LASF17:
- 820 0072 5343425F 		.ascii	"SCB_1_SpiInit\000"
- 820      315F5370 
- 820      69496E69 
- 820      7400
- 821              	.LASF1:
- 822 0080 756E7369 		.ascii	"unsigned char\000"
- 822      676E6564 
- 822      20636861 
- 822      7200
- 823              	.LASF18:
- 824 008e 5343425F 		.ascii	"SCB_1_SpiPostEnable\000"
- 824      315F5370 
- 824      69506F73 
- 824      74456E61 
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 25
+ 811              	.LASF28:
+ 812 0032 433A5C55 		.ascii	"C:\\Users\\Mike\\Documents\\GitHub\\Git-test1-PSoC-"
+ 812      73657273 
+ 812      5C4D696B 
+ 812      655C446F 
+ 812      63756D65 
+ 813 0060 5C446573 		.ascii	"\\Design01G.cydsn\000"
+ 813      69676E30 
+ 813      31472E63 
+ 813      7964736E 
+ 813      00
+ 814              	.LASF29:
+ 815 0071 5343425F 		.ascii	"SCB_1_IntrTxMask\000"
+ 815      315F496E 
+ 815      74725478 
+ 815      4D61736B 
+ 815      00
+ 816              	.LASF20:
+ 817 0082 5343425F 		.ascii	"SCB_1_SpiSetActiveSlaveSelect\000"
+ 817      315F5370 
+ 817      69536574 
+ 817      41637469 
+ 817      7665536C 
+ 818              	.LASF25:
+ 819 00a0 7373506F 		.ascii	"ssPolarity\000"
+ 819      6C617269 
+ 819      747900
+ 820              	.LASF11:
+ 821 00ab 666C6F61 		.ascii	"float\000"
+ 821      7400
+ 822              	.LASF17:
+ 823 00b1 5343425F 		.ascii	"SCB_1_SpiInit\000"
+ 823      315F5370 
+ 823      69496E69 
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 25
 
 
- 824      626C6500 
- 825              	.LASF5:
- 826 00a2 6C6F6E67 		.ascii	"long unsigned int\000"
- 826      20756E73 
- 826      69676E65 
- 826      6420696E 
- 826      7400
- 827              	.LASF3:
- 828 00b4 73686F72 		.ascii	"short unsigned int\000"
- 828      7420756E 
- 828      7369676E 
- 828      65642069 
- 828      6E7400
- 829              	.LASF26:
- 830 00c7 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 830      43313120 
- 830      352E342E 
- 830      31203230 
- 830      31363036 
- 831 00fa 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
- 831      20726576 
- 831      6973696F 
- 831      6E203233 
- 831      37373135 
- 832 012d 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 832      66756E63 
- 832      74696F6E 
- 832      2D736563 
- 832      74696F6E 
- 833              	.LASF27:
- 834 0155 47656E65 		.ascii	"Generated_Source\\PSoC4\\SCB_1_SPI.c\000"
- 834      72617465 
- 834      645F536F 
- 834      75726365 
- 834      5C50536F 
- 835              	.LASF12:
- 836 0178 646F7562 		.ascii	"double\000"
- 836      6C6500
- 837              	.LASF9:
- 838 017f 75696E74 		.ascii	"uint16\000"
- 838      313600
- 839              	.LASF10:
- 840 0186 75696E74 		.ascii	"uint32\000"
- 840      333200
- 841              	.LASF8:
- 842 018d 756E7369 		.ascii	"unsigned int\000"
- 842      676E6564 
- 842      20696E74 
- 842      00
- 843              	.LASF7:
- 844 019a 6C6F6E67 		.ascii	"long long unsigned int\000"
- 844      206C6F6E 
- 844      6720756E 
- 844      7369676E 
- 844      65642069 
- 845              	.LASF19:
- 846 01b1 5343425F 		.ascii	"SCB_1_SpiStop\000"
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cc2BGN4P.s 			page 26
+ 823      7400
+ 824              	.LASF1:
+ 825 00bf 756E7369 		.ascii	"unsigned char\000"
+ 825      676E6564 
+ 825      20636861 
+ 825      7200
+ 826              	.LASF18:
+ 827 00cd 5343425F 		.ascii	"SCB_1_SpiPostEnable\000"
+ 827      315F5370 
+ 827      69506F73 
+ 827      74456E61 
+ 827      626C6500 
+ 828              	.LASF5:
+ 829 00e1 6C6F6E67 		.ascii	"long unsigned int\000"
+ 829      20756E73 
+ 829      69676E65 
+ 829      6420696E 
+ 829      7400
+ 830              	.LASF3:
+ 831 00f3 73686F72 		.ascii	"short unsigned int\000"
+ 831      7420756E 
+ 831      7369676E 
+ 831      65642069 
+ 831      6E7400
+ 832              	.LASF26:
+ 833 0106 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 833      43313120 
+ 833      352E342E 
+ 833      31203230 
+ 833      31363036 
+ 834 0139 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 834      20726576 
+ 834      6973696F 
+ 834      6E203233 
+ 834      37373135 
+ 835 016c 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 835      66756E63 
+ 835      74696F6E 
+ 835      2D736563 
+ 835      74696F6E 
+ 836              	.LASF27:
+ 837 0194 47656E65 		.ascii	"Generated_Source\\PSoC4\\SCB_1_SPI.c\000"
+ 837      72617465 
+ 837      645F536F 
+ 837      75726365 
+ 837      5C50536F 
+ 838              	.LASF12:
+ 839 01b7 646F7562 		.ascii	"double\000"
+ 839      6C6500
+ 840              	.LASF9:
+ 841 01be 75696E74 		.ascii	"uint16\000"
+ 841      313600
+ 842              	.LASF10:
+ 843 01c5 75696E74 		.ascii	"uint32\000"
+ 843      333200
+ 844              	.LASF8:
+ 845 01cc 756E7369 		.ascii	"unsigned int\000"
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccpYnxGc.s 			page 26
 
 
- 846      315F5370 
- 846      6953746F 
- 846      7000
- 847              	.LASF23:
- 848 01bf 706F6C61 		.ascii	"polarity\000"
- 848      72697479 
- 848      00
- 849              	.LASF28:
- 850 01c8 433A5C55 		.ascii	"C:\\Users\\Phyllis Byrom\\Documents\\PSoC Creator\\"
- 850      73657273 
- 850      5C506879 
- 850      6C6C6973 
- 850      20427972 
- 851 01f6 4769742D 		.ascii	"Git-test1\\Design01G.cydsn\000"
- 851      74657374 
- 851      315C4465 
- 851      7369676E 
- 851      3031472E 
+ 845      676E6564 
+ 845      20696E74 
+ 845      00
+ 846              	.LASF7:
+ 847 01d9 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 847      206C6F6E 
+ 847      6720756E 
+ 847      7369676E 
+ 847      65642069 
+ 848              	.LASF19:
+ 849 01f0 5343425F 		.ascii	"SCB_1_SpiStop\000"
+ 849      315F5370 
+ 849      6953746F 
+ 849      7000
+ 850              	.LASF23:
+ 851 01fe 706F6C61 		.ascii	"polarity\000"
+ 851      72697479 
+ 851      00
  852              	.LASF16:
- 853 0210 73697A65 		.ascii	"sizetype\000"
+ 853 0207 73697A65 		.ascii	"sizetype\000"
  853      74797065 
  853      00
  854              	.LASF6:
- 855 0219 6C6F6E67 		.ascii	"long long int\000"
+ 855 0210 6C6F6E67 		.ascii	"long long int\000"
  855      206C6F6E 
  855      6720696E 
  855      7400
  856              	.LASF13:
- 857 0227 63686172 		.ascii	"char\000"
+ 857 021e 63686172 		.ascii	"char\000"
  857      00
  858              	.LASF24:
- 859 022c 73706943 		.ascii	"spiCtrl\000"
+ 859 0223 73706943 		.ascii	"spiCtrl\000"
  859      74726C00 
  860              	.LASF2:
- 861 0234 73686F72 		.ascii	"short int\000"
+ 861 022b 73686F72 		.ascii	"short int\000"
  861      7420696E 
  861      7400
  862              	.LASF4:
- 863 023e 6C6F6E67 		.ascii	"long int\000"
+ 863 0235 6C6F6E67 		.ascii	"long int\000"
  863      20696E74 
  863      00
  864              	.LASF15:
- 865 0247 6C6F6E67 		.ascii	"long double\000"
+ 865 023e 6C6F6E67 		.ascii	"long double\000"
  865      20646F75 
  865      626C6500 
  866              	.LASF0:
- 867 0253 7369676E 		.ascii	"signed char\000"
+ 867 024a 7369676E 		.ascii	"signed char\000"
  867      65642063 
  867      68617200 
  868              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
