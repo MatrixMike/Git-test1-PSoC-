@@ -6,14 +6,14 @@
 <CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
 <userData>
 <dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
-<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Datasheet">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
 <TreeKeys>
 <v>Source</v>
 <v>Components</v>
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Git-test1\Design01G\Header Files\cyapicallbacks.h">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Git-test1\Design01G">
 <ExpandedNodeIds>
 <v>Git-test1</v>
 <v>Git-test1\Design01G</v>
@@ -181,6 +181,7 @@
 <v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
 <v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
 <v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Git-test1\Design01G\CortexM0\ARM_GCC_541\Debug\Listing Files\I2S_1.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -195,12 +196,12 @@
 <v>Git-test1\Design01G\PSoC 4 Architecture TRM</v>
 <v>Git-test1\Design01G\PSoC 4200 BLE Family Datasheet</v>
 <v>Git-test1\Design01G\System Reference Guides</v>
-<v>Git-test1\Design01G\System Reference Guides\cy_boot_v5_80</v>
+<v>Git-test1\Design01G\System Reference Guides\cy_boot_v5_90</v>
 <v>Git-test1\Design01G\System Reference Guides\cy_lfclk_v1_20</v>
 <v>Git-test1\Design01G\Project Datasheet</v>
 <v>Git-test1\Design01G\ADC_SAR_SEQ_P4_v2_50.pdf</v>
 <v>Git-test1\Design01G\Battery_v1_0.pdf</v>
-<v>Git-test1\Design01G\BLE_v3_50.pdf</v>
+<v>Git-test1\Design01G\BLE_v3_65.pdf</v>
 <v>Git-test1\Design01G\Capacitor_v1_0.pdf</v>
 <v>Git-test1\Design01G\cy_clock_v2_20</v>
 <v>Git-test1\Design01G\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
@@ -228,12 +229,12 @@
 <v>Git-test1\Design01G\PSoC 4 Architecture TRM</v>
 <v>Git-test1\Design01G\PSoC 4200 BLE Family Datasheet</v>
 <v>Git-test1\Design01G\System Reference Guides</v>
-<v>Git-test1\Design01G\System Reference Guides\cy_boot_v5_80</v>
+<v>Git-test1\Design01G\System Reference Guides\cy_boot_v5_90</v>
 <v>Git-test1\Design01G\System Reference Guides\cy_lfclk_v1_20</v>
 <v>Git-test1\Design01G\Project Datasheet</v>
 <v>Git-test1\Design01G\ADC_SAR_SEQ_P4_v2_50.pdf</v>
 <v>Git-test1\Design01G\Battery_v1_0.pdf</v>
-<v>Git-test1\Design01G\BLE_v3_50.pdf</v>
+<v>Git-test1\Design01G\BLE_v3_65.pdf</v>
 <v>Git-test1\Design01G\Capacitor_v1_0.pdf</v>
 <v>Git-test1\Design01G\cy_clock_v2_20</v>
 <v>Git-test1\Design01G\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
@@ -273,7 +274,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1047, 475" SelectedTabbedMdiWindow="0d81d1cf-e863-4aaf-9157-7f21a2044860"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="b0c9e67e-40ef-4f6a-8b87-3a7a3b168477" /><DocumentWindow Key="C:\Users\Mike\Documents\GitHub\Git-test1-PSoC-\Design01G.cydsn\TopDesign\TopDesign.cysch" Guid="54c9defc-eb8b-4944-adcd-8f9b174cac28" /><DocumentWindow Key="C:\Users\Mike\Documents\GitHub\Git-test1-PSoC-\Design01G.cydsn\main.c" Guid="1f4be428-e119-4575-9e37-b7701aeb8d56" /><DocumentWindow Key="C:\Users\Mike\Documents\GitHub\Git-test1-PSoC-\Design01G.cydsn\cyapicallbacks.h" Guid="0d81d1cf-e863-4aaf-9157-7f21a2044860" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="912, 385" SelectedTabbedMdiWindow="1f4be428-e119-4575-9e37-b7701aeb8d56"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="b0c9e67e-40ef-4f6a-8b87-3a7a3b168477" /><DocumentWindow Key="C:\Users\Mike\Documents\GitHub\Git-test1-PSoC-\Design01G.cydsn\TopDesign\TopDesign.cysch" Guid="54c9defc-eb8b-4944-adcd-8f9b174cac28" /><DocumentWindow Key="C:\Users\Mike\Documents\GitHub\Git-test1-PSoC-\Design01G.cydsn\main.c" Guid="1f4be428-e119-4575-9e37-b7701aeb8d56" /><DocumentWindow Key="C:\Users\Mike\Documents\GitHub\Git-test1-PSoC-\Design01G.cydsn\cyapicallbacks.h" Guid="0d81d1cf-e863-4aaf-9157-7f21a2044860" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

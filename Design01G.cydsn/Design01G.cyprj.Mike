@@ -896,10 +896,6 @@
 <dep name=".\cyapicallbacks.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\cyfitter_cfg.c" />
-<file name=".\CortexM0\ARM_GCC_541\Debug\cymetadata.o">
-<dep name=".\Generated_Source\PSoC4\cymetadata.c" />
-</file>
-<file name=".\Generated_Source\PSoC4\cymetadata.c" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\cyutils.o">
 <dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
 <dep name=".\Generated_Source\PSoC4\cyfitter.h" />
@@ -1013,6 +1009,10 @@
 <file name=".\Generated_Source\PSoC4\CyBootAsmGnu.s" />
 <file name=".\Generated_Source\PSoC4\cydevicegnu_trm.inc" />
 <file name=".\Generated_Source\PSoC4\cyfittergnu.inc" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\cymetadata.o">
+<dep name=".\Generated_Source\PSoC4\cymetadata.c" />
+</file>
+<file name=".\Generated_Source\PSoC4\cymetadata.c" />
 </CyGuid_1173175f-1b9b-4ad4-a065-754a48a27021>
 </dependency_info>
 </CyGuid_f44455c5-3770-4452-b988-0a7a7ff46256>
@@ -1378,106 +1378,108 @@
 <v>${CyRoot}\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\Battery_v1_0\Battery_v1_0.cysym</v>
 <v>${CyRoot}\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\Battery_v1_0\Battery_v1_0.pdf</v>
 <v>${CyRoot}\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\Battery_v1_0\version.cypatch</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\BLE_v3_50.cysym</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\BLE_v3_50.chm</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\BLE_v3_50.dll</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\BLE_v3_50.cystate</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\version.cypatch</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_gatt.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_hids.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_bas.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_bas.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_hrs.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_hrs.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_gls.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_gls.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_gatt.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_lls.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_lls.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_ias.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_ias.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_tps.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_tps.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_eventHandler.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_cts.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_cts.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_hids.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_HAL_INT.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_HAL_PVT.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_HAL_PVT.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_STACK_PVT.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_StackGap.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_StackGatt.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_StackGattDb.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_StackHostMain.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_StackL2cap.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_scps.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_scps.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_dis.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_dis.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_StackGattServer.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_StackGattClient.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_Stack.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_eventHandler.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_custom.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_custom.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_hts.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_bls.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_bls.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_hts.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_rscs.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_rscs.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_ans.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_ans.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_lns.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_pass.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_lns.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_pass.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_cps.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_cps.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_rtus.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_ndcs.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_rtus.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_ndcs.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_cscs.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_cscs.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_uds.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_uds.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_cgms.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_cgms.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_bts.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_bts.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_ess.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_ess.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_bms.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_bms.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_wss.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_wss.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_bcs.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_bcs.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_wpts.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_wpts.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_ancs.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_ancs.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_hps.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_hps.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_ips.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_ips.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_aios.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_aios.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_plxs.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\API\BLE_plxs.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\Library\mdkCyBLEStack_BLE_SOC_CENTRAL.a</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\Library\mdkCyBLEStack_BLE_SOC_CENTRAL_PERIPHERAL.a</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\Library\mdkCyBLEStack_BLE_SOC_PERIPHERAL.a</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\Library\mdkCyBLEStack_HCI_MODE_CENTRAL_PERIPHERAL.a</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\Library\gccCyBLEStack_BLE_SOC_CENTRAL.a</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\Library\gccCyBLEStack_BLE_SOC_CENTRAL_PERIPHERAL.a</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\Library\gccCyBLEStack_BLE_SOC_PERIPHERAL.a</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\Library\gccCyBLEStack_HCI_MODE_CENTRAL_PERIPHERAL.a</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\PSoC4\BLE_v3_50.cysch</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\BLE_v3_65.cysym</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\BLE_v3_65.chm</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\BLE_v3_65.dll</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\BLE_v3_65.cystate</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\version.cypatch</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_gatt.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_hids.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_bas.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_bas.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_hrs.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_hrs.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_gls.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_gls.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_gatt.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_lls.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_lls.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_ias.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_ias.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_tps.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_tps.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_eventHandler.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_cts.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_cts.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_hids.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_HAL_INT.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_HAL_PVT.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_HAL_PVT.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_STACK_PVT.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_StackGap.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_StackGatt.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_StackGattDb.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_StackHostMain.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_StackL2cap.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_scps.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_scps.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_dis.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_dis.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_StackGattServer.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_StackGattClient.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_Stack.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_eventHandler.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_custom.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_custom.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_hts.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_bls.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_bls.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_hts.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_rscs.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_rscs.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_ans.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_ans.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_lns.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_pass.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_lns.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_pass.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_cps.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_cps.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_rtus.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_ndcs.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_rtus.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_ndcs.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_cscs.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_cscs.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_uds.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_uds.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_cgms.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_cgms.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_bts.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_bts.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_ess.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_ess.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_bms.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_bms.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_wss.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_wss.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_bcs.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_bcs.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_wpts.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_wpts.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_ancs.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_ancs.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_hps.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_hps.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_ips.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_ips.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_aios.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_aios.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_plxs.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_plxs.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_ots.c</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\API\BLE_ots.h</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\Library\mdkCyBLEStack_BLE_SOC_CENTRAL.a</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\Library\mdkCyBLEStack_BLE_SOC_CENTRAL_PERIPHERAL.a</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\Library\mdkCyBLEStack_BLE_SOC_PERIPHERAL.a</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\Library\mdkCyBLEStack_HCI_MODE_CENTRAL_PERIPHERAL.a</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\Library\gccCyBLEStack_BLE_SOC_CENTRAL.a</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\Library\gccCyBLEStack_BLE_SOC_CENTRAL_PERIPHERAL.a</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\Library\gccCyBLEStack_BLE_SOC_PERIPHERAL.a</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\Library\gccCyBLEStack_HCI_MODE_CENTRAL_PERIPHERAL.a</v>
+<v>..\..\..\PSoC Creator\4.3\Downloads ( 4.3).cylib\BLE_v3_65\PSoC4\BLE_v3_65.cysch</v>
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_m0s8_ble_v1_0\cy_m0s8_ble_v1_0.cysym</v>
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_m0s8_ble_v1_0\PSoC4\cy_m0s8_ble_v1_0.cyprimitive</v>
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.cysym</v>
@@ -1565,31 +1567,31 @@
 <v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\bI2S_v2_70\bI2S_v2_70.cysym</v>
 <v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\bI2S_v2_70\bI2S_v2_70.v</v>
 <v>.\Design01G.cydwr</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\cm0gcc.ld</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\Cm0RealView.scat</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\Cm0Start.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\core_cm0.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\core_cm0_psoc4.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\CyBootAsmRv.s</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\CyFlash.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\CyFlash.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\CyLib.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\CyLib.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\cyPm.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\cyPm.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\cytypes.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\cyutils.c</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\cypins.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\core_cmFunc.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\core_cmInstr.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\Cm0Iar.icf</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\CyBootAsmIar.s</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\cmsis_armcc.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\cmsis_gcc.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\core_cm0plus.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\core_cm0plus_psoc4.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\cmsis_compiler.h</v>
-<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_80\PSoC4\API\CyBootAsmGnu.s</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\cm0gcc.ld</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\Cm0RealView.scat</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\Cm0Start.c</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\core_cm0.h</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\core_cm0_psoc4.h</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\CyBootAsmRv.s</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\CyFlash.c</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\CyFlash.h</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\CyLib.c</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\CyLib.h</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\cyPm.c</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\cyPm.h</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\cytypes.h</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\cyutils.c</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\cypins.h</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\core_cmFunc.h</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\core_cmInstr.h</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\Cm0Iar.icf</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\CyBootAsmIar.s</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\cmsis_armcc.h</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\cmsis_gcc.h</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\core_cm0plus.h</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\core_cm0plus_psoc4.h</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\cmsis_compiler.h</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_90\PSoC4\API\CyBootAsmGnu.s</v>
 <v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_lfclk_v1_20\PSoC4\API\CyLFClk.c</v>
 <v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_lfclk_v1_20\PSoC4\API\CyLFClk.h</v>
 <v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Em_EEPROM_Dynamic_v2_20\API\cy_em_eeprom.c</v>
@@ -1759,7 +1761,7 @@
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif</v>
 </warp_dep>
-<deps_time v="132403097263633984" />
+<deps_time v="132403925376376211" />
 <top_block v="TopDesign" />
 <last_generation v="1" />
 <pdl_path v="" />
@@ -1769,7 +1771,7 @@
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
 <link_deps_times>
-<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0" v="132403098681362535" />
+<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0" v="132403925931459253" />
 </link_deps_times>
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>
