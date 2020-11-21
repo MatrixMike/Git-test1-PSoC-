@@ -2,7 +2,7 @@
 --	Conversion of Design01G.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Sun Jul 26 17:25:46 2020
+--	Tue Jul 28 16:48:02 2020
 --
 
 USE cypress.cypress.all;
@@ -100,9 +100,9 @@ TERMINAL Net_4801 : bit;
 TERMINAL Net_3306 : bit;
 TERMINAL Net_3224 : bit;
 SIGNAL \BLE_1:Net_15\ : bit;
-SIGNAL Net_3308 : bit;
+SIGNAL Net_3374 : bit;
 SIGNAL \BLE_1:Net_53\ : bit;
-SIGNAL Net_3307 : bit;
+SIGNAL Net_3373 : bit;
 SIGNAL \BLE_1:Net_55\ : bit;
 SIGNAL \ADC_SAR_Seq_1:Net_3125\ : bit;
 SIGNAL \ADC_SAR_Seq_1:Net_3126\ : bit;
@@ -1007,7 +1007,7 @@ Battery:cy_annotation_universal_v1_0
 \BLE_1:cy_m0s8_ble\:cy_m0s8_ble_v1_0
 	GENERIC MAP(cy_registers=>"")
 	PORT MAP(interrupt=>\BLE_1:Net_15\,
-		rf_ext_pa_en=>Net_3308);
+		rf_ext_pa_en=>Net_3374);
 \BLE_1:bless_isr\:cy_isr_v1_0
 	GENERIC MAP(int_type=>"10",
 		is_nmi=>'0')
@@ -2247,7 +2247,7 @@ Clock_4:cy_clock_v1_0
 		divisor=>0,
 		period=>"1953125000",
 		is_direct=>'0',
-		is_digital=>'0')
+		is_digital=>'1')
 	PORT MAP(clock_out=>Net_2347,
 		dig_domain_out=>open);
 \I2S_1:bI2S:reset\:cy_dff

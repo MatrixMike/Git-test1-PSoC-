@@ -1,6 +1,6 @@
--- Project:   C:\Users\Phyllis Byrom\Documents\PSoC Creator\Git-test1\Design01G.cydsn\Design01G.cyprj
--- Generated: 07/26/2020 17:25:51
--- PSoC Creator  4.2
+-- Project:   C:\Users\Mike\Documents\GitHub\Git-test1-PSoC-\Design01G.cydsn\Design01G.cyprj
+-- Generated: 07/28/2020 16:48:25
+-- PSoC Creator  4.3
 
 ENTITY Design01G IS
     PORT(
@@ -63,9 +63,9 @@ ARCHITECTURE __DEFAULT__ OF Design01G IS
     SIGNAL Net_3302 : bit;
     SIGNAL Net_3303 : bit;
     SIGNAL Net_3304 : bit;
-    SIGNAL Net_3308 : bit;
     SIGNAL Net_3310 : bit;
     SIGNAL Net_3311 : bit;
+    SIGNAL Net_3374 : bit;
     SIGNAL SCK(0)__PA : bit;
     SIGNAL SDI(0)__PA : bit;
     SIGNAL SW1(0)__PA : bit;
@@ -2122,7 +2122,7 @@ BEGIN
             cy_registers => "")
         PORT MAP(
             interrupt => \BLE_1:Net_15\,
-            rfctrl_extpa_en => Net_3308);
+            rfctrl_extpa_en => Net_3374);
 
     \BLE_1:bless_isr\:interrupt
         GENERIC MAP(

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 1
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccZ9OYc5.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 1
   22:Generated_Source\PSoC4/LED_1_PM.c **** 
   23:Generated_Source\PSoC4/LED_1_PM.c **** /*******************************************************************************
   24:Generated_Source\PSoC4/LED_1_PM.c **** * Function Name: LED_1_Sleep
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 2
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccZ9OYc5.s 			page 2
 
 
   25:Generated_Source\PSoC4/LED_1_PM.c **** ****************************************************************************//**
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 1
   49 000e BD46     		mov	sp, r7
   50              		@ sp needed
   51 0010 80BD     		pop	{r7, pc}
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 3
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccZ9OYc5.s 			page 3
 
 
   52              	.L3:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 1
   82 000a 1360     		str	r3, [r2]
   86:Generated_Source\PSoC4/LED_1_PM.c ****     #else
   87:Generated_Source\PSoC4/LED_1_PM.c ****         #if (CY_PSOC4_4200L)
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 4
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccZ9OYc5.s 			page 4
 
 
   88:Generated_Source\PSoC4/LED_1_PM.c ****             /* Restore the regulator state and come out of suspend mode */
@@ -215,48 +215,48 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 1
  104 0006 00000000 		.4byte	.Ldebug_abbrev0
  105 000a 04       		.byte	0x4
  106 000b 01       		.uleb128 0x1
- 107 000c 64000000 		.4byte	.LASF20
+ 107 000c A3000000 		.4byte	.LASF20
  108 0010 0C       		.byte	0xc
- 109 0011 AC010000 		.4byte	.LASF21
- 110 0015 3E010000 		.4byte	.LASF22
+ 109 0011 A3010000 		.4byte	.LASF21
+ 110 0015 0F000000 		.4byte	.LASF22
  111 0019 00000000 		.4byte	.Ldebug_ranges0+0
  112 001d 00000000 		.4byte	0
  113 0021 00000000 		.4byte	.Ldebug_line0
  114 0025 02       		.uleb128 0x2
  115 0026 01       		.byte	0x1
  116 0027 06       		.byte	0x6
- 117 0028 D7010000 		.4byte	.LASF0
+ 117 0028 CE010000 		.4byte	.LASF0
  118 002c 02       		.uleb128 0x2
  119 002d 01       		.byte	0x1
  120 002e 08       		.byte	0x8
- 121 002f 1D000000 		.4byte	.LASF1
+ 121 002f 5C000000 		.4byte	.LASF1
  122 0033 02       		.uleb128 0x2
  123 0034 02       		.byte	0x2
  124 0035 05       		.byte	0x5
- 125 0036 A2010000 		.4byte	.LASF2
+ 125 0036 99010000 		.4byte	.LASF2
  126 003a 02       		.uleb128 0x2
  127 003b 02       		.byte	0x2
  128 003c 07       		.byte	0x7
- 129 003d 3D000000 		.4byte	.LASF3
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 5
+ 129 003d 7C000000 		.4byte	.LASF3
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccZ9OYc5.s 			page 5
 
 
  130 0041 02       		.uleb128 0x2
  131 0042 04       		.byte	0x4
  132 0043 05       		.byte	0x5
- 133 0044 CE010000 		.4byte	.LASF4
+ 133 0044 C5010000 		.4byte	.LASF4
  134 0048 02       		.uleb128 0x2
  135 0049 04       		.byte	0x4
  136 004a 07       		.byte	0x7
- 137 004b 2B000000 		.4byte	.LASF5
+ 137 004b 6A000000 		.4byte	.LASF5
  138 004f 02       		.uleb128 0x2
  139 0050 08       		.byte	0x8
  140 0051 05       		.byte	0x5
- 141 0052 8F010000 		.4byte	.LASF6
+ 141 0052 86010000 		.4byte	.LASF6
  142 0056 02       		.uleb128 0x2
  143 0057 08       		.byte	0x8
  144 0058 07       		.byte	0x7
- 145 0059 27010000 		.4byte	.LASF7
+ 145 0059 66010000 		.4byte	.LASF7
  146 005d 03       		.uleb128 0x3
  147 005e 04       		.byte	0x4
  148 005f 05       		.byte	0x5
@@ -264,24 +264,24 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 1
  150 0064 02       		.uleb128 0x2
  151 0065 04       		.byte	0x4
  152 0066 07       		.byte	0x7
- 153 0067 0D010000 		.4byte	.LASF8
+ 153 0067 4C010000 		.4byte	.LASF8
  154 006b 04       		.uleb128 0x4
- 155 006c 06010000 		.4byte	.LASF12
+ 155 006c 45010000 		.4byte	.LASF12
  156 0070 02       		.byte	0x2
  157 0071 E601     		.2byte	0x1e6
  158 0073 48000000 		.4byte	0x48
  159 0077 02       		.uleb128 0x2
  160 0078 04       		.byte	0x4
  161 0079 04       		.byte	0x4
- 162 007a 17000000 		.4byte	.LASF9
+ 162 007a 56000000 		.4byte	.LASF9
  163 007e 02       		.uleb128 0x2
  164 007f 08       		.byte	0x8
  165 0080 04       		.byte	0x4
- 166 0081 F2000000 		.4byte	.LASF10
+ 166 0081 31010000 		.4byte	.LASF10
  167 0085 02       		.uleb128 0x2
  168 0086 01       		.byte	0x1
  169 0087 08       		.byte	0x8
- 170 0088 9D010000 		.4byte	.LASF11
+ 170 0088 94010000 		.4byte	.LASF11
  171 008c 04       		.uleb128 0x4
  172 008d 00000000 		.4byte	.LASF13
  173 0091 02       		.byte	0x2
@@ -295,16 +295,16 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 1
  181 00a0 21       		.byte	0x21
  182 00a1 CA000000 		.4byte	0xca
  183 00a5 07       		.uleb128 0x7
- 184 00a6 0F000000 		.4byte	.LASF14
+ 184 00a6 4E000000 		.4byte	.LASF14
  185 00aa 03       		.byte	0x3
  186 00ab 23       		.byte	0x23
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 6
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccZ9OYc5.s 			page 6
 
 
  187 00ac 6B000000 		.4byte	0x6b
  188 00b0 00       		.byte	0
  189 00b1 07       		.uleb128 0x7
- 190 00b2 86010000 		.4byte	.LASF15
+ 190 00b2 7D010000 		.4byte	.LASF15
  191 00b6 03       		.byte	0x3
  192 00b7 24       		.byte	0x24
  193 00b8 6B000000 		.4byte	0x6b
@@ -317,12 +317,12 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 1
  200 00c8 08       		.byte	0x8
  201 00c9 00       		.byte	0
  202 00ca 08       		.uleb128 0x8
- 203 00cb 50000000 		.4byte	.LASF17
+ 203 00cb 8F000000 		.4byte	.LASF17
  204 00cf 03       		.byte	0x3
  205 00d0 26       		.byte	0x26
  206 00d1 9D000000 		.4byte	0x9d
  207 00d5 09       		.uleb128 0x9
- 208 00d6 E3010000 		.4byte	.LASF18
+ 208 00d6 DA010000 		.4byte	.LASF18
  209 00da 01       		.byte	0x1
  210 00db 2C       		.byte	0x2c
  211 00dc 00000000 		.4byte	.LFB0
@@ -330,7 +330,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 1
  213 00e4 01       		.uleb128 0x1
  214 00e5 9C       		.byte	0x9c
  215 00e6 09       		.uleb128 0x9
- 216 00e7 1A010000 		.4byte	.LASF19
+ 216 00e7 59010000 		.4byte	.LASF19
  217 00eb 01       		.byte	0x1
  218 00ec 52       		.byte	0x52
  219 00ed 00000000 		.4byte	.LFB1
@@ -338,7 +338,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 1
  221 00f5 01       		.uleb128 0x1
  222 00f6 9C       		.byte	0x9c
  223 00f7 0A       		.uleb128 0xa
- 224 00f8 F9000000 		.4byte	.LASF23
+ 224 00f8 38010000 		.4byte	.LASF23
  225 00fc 01       		.byte	0x1
  226 00fd 14       		.byte	0x14
  227 00fe CA000000 		.4byte	0xca
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 1
  241 0007 03       		.uleb128 0x3
  242 0008 0E       		.uleb128 0xe
  243 0009 1B       		.uleb128 0x1b
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 7
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccZ9OYc5.s 			page 7
 
 
  244 000a 0E       		.uleb128 0xe
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 1
  298 0040 0B       		.uleb128 0xb
  299 0041 0B       		.uleb128 0xb
  300 0042 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 8
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccZ9OYc5.s 			page 8
 
 
  301 0043 0B       		.uleb128 0xb
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 1
  355 0079 9742     		.uleb128 0x2117
  356 007b 19       		.uleb128 0x19
  357 007c 00       		.byte	0
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 9
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccZ9OYc5.s 			page 9
 
 
  358 007d 00       		.byte	0
@@ -534,130 +534,130 @@ ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 1
  403 0006 75736253 		.ascii	"usbState\000"
  403      74617465 
  403      00
- 404              	.LASF14:
- 405 000f 70635374 		.ascii	"pcState\000"
- 405      61746500 
- 406              	.LASF9:
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 10
+ 404              	.LASF22:
+ 405 000f 433A5C55 		.ascii	"C:\\Users\\Mike\\Documents\\GitHub\\Git-test1-PSoC-"
+ 405      73657273 
+ 405      5C4D696B 
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccZ9OYc5.s 			page 10
 
 
- 407 0017 666C6F61 		.ascii	"float\000"
- 407      7400
- 408              	.LASF1:
- 409 001d 756E7369 		.ascii	"unsigned char\000"
- 409      676E6564 
- 409      20636861 
- 409      7200
- 410              	.LASF5:
- 411 002b 6C6F6E67 		.ascii	"long unsigned int\000"
- 411      20756E73 
- 411      69676E65 
- 411      6420696E 
- 411      7400
- 412              	.LASF3:
- 413 003d 73686F72 		.ascii	"short unsigned int\000"
- 413      7420756E 
- 413      7369676E 
- 413      65642069 
- 413      6E7400
- 414              	.LASF17:
- 415 0050 4C45445F 		.ascii	"LED_1_BACKUP_STRUCT\000"
- 415      315F4241 
- 415      434B5550 
- 415      5F535452 
- 415      55435400 
- 416              	.LASF20:
- 417 0064 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 417      43313120 
- 417      352E342E 
- 417      31203230 
- 417      31363036 
- 418 0097 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
- 418      20726576 
- 418      6973696F 
- 418      6E203233 
- 418      37373135 
- 419 00ca 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 419      66756E63 
- 419      74696F6E 
- 419      2D736563 
- 419      74696F6E 
- 420              	.LASF10:
- 421 00f2 646F7562 		.ascii	"double\000"
- 421      6C6500
- 422              	.LASF23:
- 423 00f9 4C45445F 		.ascii	"LED_1_backup\000"
- 423      315F6261 
- 423      636B7570 
- 423      00
- 424              	.LASF12:
- 425 0106 75696E74 		.ascii	"uint32\000"
- 425      333200
- 426              	.LASF8:
- 427 010d 756E7369 		.ascii	"unsigned int\000"
- 427      676E6564 
- 427      20696E74 
- 427      00
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 11
+ 405      655C446F 
+ 405      63756D65 
+ 406 003d 5C446573 		.ascii	"\\Design01G.cydsn\000"
+ 406      69676E30 
+ 406      31472E63 
+ 406      7964736E 
+ 406      00
+ 407              	.LASF14:
+ 408 004e 70635374 		.ascii	"pcState\000"
+ 408      61746500 
+ 409              	.LASF9:
+ 410 0056 666C6F61 		.ascii	"float\000"
+ 410      7400
+ 411              	.LASF1:
+ 412 005c 756E7369 		.ascii	"unsigned char\000"
+ 412      676E6564 
+ 412      20636861 
+ 412      7200
+ 413              	.LASF5:
+ 414 006a 6C6F6E67 		.ascii	"long unsigned int\000"
+ 414      20756E73 
+ 414      69676E65 
+ 414      6420696E 
+ 414      7400
+ 415              	.LASF3:
+ 416 007c 73686F72 		.ascii	"short unsigned int\000"
+ 416      7420756E 
+ 416      7369676E 
+ 416      65642069 
+ 416      6E7400
+ 417              	.LASF17:
+ 418 008f 4C45445F 		.ascii	"LED_1_BACKUP_STRUCT\000"
+ 418      315F4241 
+ 418      434B5550 
+ 418      5F535452 
+ 418      55435400 
+ 419              	.LASF20:
+ 420 00a3 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 420      43313120 
+ 420      352E342E 
+ 420      31203230 
+ 420      31363036 
+ 421 00d6 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 421      20726576 
+ 421      6973696F 
+ 421      6E203233 
+ 421      37373135 
+ 422 0109 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 422      66756E63 
+ 422      74696F6E 
+ 422      2D736563 
+ 422      74696F6E 
+ 423              	.LASF10:
+ 424 0131 646F7562 		.ascii	"double\000"
+ 424      6C6500
+ 425              	.LASF23:
+ 426 0138 4C45445F 		.ascii	"LED_1_backup\000"
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccZ9OYc5.s 			page 11
 
 
- 428              	.LASF19:
- 429 011a 4C45445F 		.ascii	"LED_1_Wakeup\000"
- 429      315F5761 
- 429      6B657570 
- 429      00
- 430              	.LASF7:
- 431 0127 6C6F6E67 		.ascii	"long long unsigned int\000"
- 431      206C6F6E 
- 431      6720756E 
- 431      7369676E 
- 431      65642069 
- 432              	.LASF22:
- 433 013e 433A5C55 		.ascii	"C:\\Users\\Phyllis Byrom\\Documents\\PSoC Creator\\"
- 433      73657273 
- 433      5C506879 
- 433      6C6C6973 
- 433      20427972 
- 434 016c 4769742D 		.ascii	"Git-test1\\Design01G.cydsn\000"
- 434      74657374 
- 434      315C4465 
+ 426      315F6261 
+ 426      636B7570 
+ 426      00
+ 427              	.LASF12:
+ 428 0145 75696E74 		.ascii	"uint32\000"
+ 428      333200
+ 429              	.LASF8:
+ 430 014c 756E7369 		.ascii	"unsigned int\000"
+ 430      676E6564 
+ 430      20696E74 
+ 430      00
+ 431              	.LASF19:
+ 432 0159 4C45445F 		.ascii	"LED_1_Wakeup\000"
+ 432      315F5761 
+ 432      6B657570 
+ 432      00
+ 433              	.LASF7:
+ 434 0166 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 434      206C6F6E 
+ 434      6720756E 
  434      7369676E 
- 434      3031472E 
+ 434      65642069 
  435              	.LASF15:
- 436 0186 73696F53 		.ascii	"sioState\000"
+ 436 017d 73696F53 		.ascii	"sioState\000"
  436      74617465 
  436      00
  437              	.LASF6:
- 438 018f 6C6F6E67 		.ascii	"long long int\000"
+ 438 0186 6C6F6E67 		.ascii	"long long int\000"
  438      206C6F6E 
  438      6720696E 
  438      7400
  439              	.LASF11:
- 440 019d 63686172 		.ascii	"char\000"
+ 440 0194 63686172 		.ascii	"char\000"
  440      00
  441              	.LASF2:
- 442 01a2 73686F72 		.ascii	"short int\000"
+ 442 0199 73686F72 		.ascii	"short int\000"
  442      7420696E 
  442      7400
  443              	.LASF21:
- 444 01ac 47656E65 		.ascii	"Generated_Source\\PSoC4\\LED_1_PM.c\000"
+ 444 01a3 47656E65 		.ascii	"Generated_Source\\PSoC4\\LED_1_PM.c\000"
  444      72617465 
  444      645F536F 
  444      75726365 
  444      5C50536F 
  445              	.LASF4:
- 446 01ce 6C6F6E67 		.ascii	"long int\000"
+ 446 01c5 6C6F6E67 		.ascii	"long int\000"
  446      20696E74 
  446      00
  447              	.LASF0:
- 448 01d7 7369676E 		.ascii	"signed char\000"
+ 448 01ce 7369676E 		.ascii	"signed char\000"
  448      65642063 
  448      68617200 
  449              	.LASF18:
- 450 01e3 4C45445F 		.ascii	"LED_1_Sleep\000"
+ 450 01da 4C45445F 		.ascii	"LED_1_Sleep\000"
  450      315F536C 
  450      65657000 
  451              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
-ARM GAS  C:\Users\PHYLLI~1\AppData\Local\Temp\cctRASRT.s 			page 12
+ARM GAS  C:\Users\Mike\AppData\Local\Temp\ccZ9OYc5.s 			page 12
 
 
